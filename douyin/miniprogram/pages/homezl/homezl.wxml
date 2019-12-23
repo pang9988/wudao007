@@ -1,0 +1,87 @@
+<view class='view-page'>
+  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
+
+  <view class='page-content'>
+
+    <view class="myaa">
+
+      <view style="background:#333365;width:100%;height:200rpx;">
+        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+        <image class="myaaa" src="./../../images/yt/44.png"></image>
+
+      </view>
+      <view class="mmm">
+        <view class="mmp">
+          <view class="qisiliao">
+            <view class="myab">
+              <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <view class="mymz">昵称:
+              <open-data type="userNickName"></open-data>
+            </view>
+          </view>
+          <view class="myac" bindtap="jjxx">教练须知</view>
+        </view>
+      </view>
+      <view style="margin-top:250rpx;"></view>
+    </view>
+    <!-- 个人资料 -->
+    <view class="homezltop">
+      <!-- 性别年龄 -->
+      <view class="homexing">
+        <view>
+          性别:<text>男</text>
+        </view>
+        <view>
+          年龄范围:<text>22~99</text>
+        </view>
+      </view>
+      <!-- 属相血型 -->
+      <view class="homexing">
+        <view>
+          属相:<text>ru</text>
+        </view>
+        <view>
+          血型:<text>0</text>
+        </view>
+      </view>
+      <!-- 星座 目前居住城市 -->
+      <view class="homexing">
+        <view>
+          星座:<text>双子座</text>
+        </view>
+        <view>
+          目前居住城市:<text>廉江</text>
+        </view>
+      </view>
+
+
+      
+    </view>
+    <!-- 业余爱好 -->
+    <view class="homecontent">
+     <view class="homeaihao">
+      <view>
+        业余爱好:<text>玩手机,打波,</text>
+      </view>
+      <view>
+        工作地区:<text>广州,深圳,东莞</text>
+      </view>
+      <view>
+        舞伴要求:<text>仅限18岁-22岁女</text>
+      </view>
+    </view>
+    </view>
+    <!-- 图片 -->
+    <view class="gou">
+    <view class="hometu">
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+      <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
+    </view>
+    </view>
+  </view>
+</view>

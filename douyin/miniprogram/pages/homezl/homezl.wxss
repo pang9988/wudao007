@@ -1,0 +1,57 @@
+/* 资料 */
+.homezltop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.homexing view {
+  width: 40%;
+  margin-bottom: 30rpx;
+}
+.homezltop .homexing {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* 业余爱好 */
+.homecontent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 73rpx;
+}
+.homeaihao view {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+/* 图片 */
+.hometu{
+  width:100%;
+  display:flex;
+  /* justify-content:space-around; */
+  flex-wrap:wrap;
+}
+/* .hometu+.homet{
+  margin-left:30rpx;
+} */
+.homet{
+  width:30%;
+}
+.homet:nth-child(1){
+margin-right: 24rpx;
+}
+.homet:nth-child(2){
+margin-right: 24rpx;
+}
+.homet:nth-child(4){
+margin-right: 24rpx;
+}
+.homet:nth-child(5){
+margin-right: 24rpx;
+}
+.gou{
+  margin-left:73rpx;
+  margin-right:73rpx;
+}

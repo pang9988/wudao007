@@ -1,4 +1,4 @@
-// pages/sq/sq.js
+// pages/homezl/homezl.js
 Page({
 
   /**
@@ -62,32 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  previewImage(e){
-    console.log(1);
-    var current = e.target.dataset.src;   //这里获取到的是一张本地的图片
-    wx.previewImage({
-      current: current,//需要预览的图片链接列表
-      urls: [current]  //当前显示图片的链接
-    })
-  },
-  // previewImage (e) {
-  //   var current = e.target.dataset.src;
-  //   wx.previewImage({
-  //     current: current,
-  //     urls: [current]
-  //   })
-  // },
-// 返回
-  myfs() {
-    wx.navigateBack({
-      url: '/pages/anquan/anquan',
-    })
-  },
-  jjxx(){
-    wx.navigateTo({
-      url: '/pages/jxaq/jxaq',
-    })
   }
-
 })

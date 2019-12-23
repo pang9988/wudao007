@@ -1,4 +1,4 @@
-.myaa{
+/* .myaa{
    position:relative;
 }
 .myaaa{
@@ -10,7 +10,7 @@
   left:16%;
 }
 .myfanhui{
-    width:50rpx;
+    width:50rpx; 
   height:50rpx;
   position:absolute;
   top:40%;
@@ -63,7 +63,7 @@
 }
    van-cell-group .sq{
      background:#666;
-   }
+   } */
    .sqbottom{
      width:100%;
      display:flex;

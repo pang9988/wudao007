@@ -2,13 +2,14 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
@@ -19,8 +20,7 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"nodeModules": true
+		}
 	},
 	"appid": "wx256712d9c3d249a1",
 	"projectname": "douyin",
@@ -81,6 +81,20 @@
 					"id": -1,
 					"name": "pages/zc/zc",
 					"pathName": "pages/zc/zc",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/homezl/homezl",
+					"pathName": "pages/homezl/homezl",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/sqzl/sqzl",
+					"pathName": "pages/sqzl/sqzl",
 					"scene": null
 				}
 			]

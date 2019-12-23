@@ -8,7 +8,9 @@
     "pages/anquan/anquan",
     "pages/sq/sq",
     "pages/zc/zc",
-    "pages/jxaq/jxaq"
+    "pages/jxaq/jxaq",
+    "pages/homezl/homezl",
+    "pages/sqzl/sqzl"
     
   ],
   "window": {

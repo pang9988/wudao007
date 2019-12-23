@@ -1,0 +1,55 @@
+/* 资料 */
+.homezltop{
+  margin-left:73rpx;
+}
+.homezltop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.homexing{
+  width:30%;
+  display:flex;
+  flex-direction:column;
+}
+.homexing1{
+  width:70%;
+  display:flex;
+  flex-direction:column;
+}
+.homexing view,.homexing1 view{
+  margin-bottom:30rpx;
+}
+/* 业余爱好 */
+.homecontent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 73rpx;
+}
+.homeaihao view {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+/* 图片 */
+.hometu{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+.homet{
+  width:30%;
+}
+.gou{
+  margin-left:73rpx;
+  margin-right:73rpx;
+}
+/*  */
+.van-uploader__preview{
+  margin:0 30rpx 30rpx 0 !important;
+}
+.van-uploader__preview-image{
+  width:100rpx;height:100rpx;
+}

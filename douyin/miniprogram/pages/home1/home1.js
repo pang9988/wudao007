@@ -4,35 +4,35 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
+  data: { 
     newDataArr:[],
     cao:[
-      { img: "./../../images/hometu/7.jpg", site: "廉江", imgtx: "./../../images/hometu/13.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2:"89" },
-      { img: "./../../images/hometu/3.jpg", site: "廉江1", imgtx: "./../../images/hometu/9.jpg", textwz: "广西,那良", textwz1: "银牌", textz2: "99" },
-      { img: "./../../images/hometu/11.jpg", site: "廉江2", imgtx: "./../../images/hometu/7.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/13.jpg", site: "廉江3", imgtx: "./../../images/hometu/4.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/4.jpg", site: "廉江4", imgtx: "./../../images/hometu/1.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
-      { img: "./../../images/hometu/1.jpg", site: "廉江11", imgtx: "./../../images/hometu/3.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "99" },
-      { img: "./../../images/hometu/2.jpg", site: "廉江12", imgtx: "./../../images/hometu/4.jpg", textwz: "深圳,香港", textwz1: "银牌", textz2: "89" },
-      { img: "./../../images/hometu/3.jpg", site: "廉江3", imgtx: "./../../images/hometu/4.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "69" },
-      { img: "./../../images/hometu/2.jpg", site: "廉江4", imgtx: "./../../images/hometu/1.jpg", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/1.jpg", site: "廉江11", imgtx: "./../../images/hometu/3.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "69" },
-      { img: "./../../images/hometu/13.jpg", site: "廉江12", imgtx: "./../../images/hometu/4.jpg", textwz: "深圳,香港", textwz1: "铜牌", textz2: "89" }
+      { img: "./../../images/hometu/7.jpg", site: "廉江", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2:"89" },
+      { img: "./../../images/hometu/3.jpg", site: "廉江1", imgtx: "./../../images/hometu/44.png", textwz: "广西,那良", textwz1: "银牌", textz2: "99" },
+      { img: "./../../images/hometu/11.jpg", site: "廉江2", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/13.jpg", site: "廉江3", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/4.jpg", site: "廉江4", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
+      { img: "./../../images/hometu/1.jpg", site: "廉江11", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "99" },
+      { img: "./../../images/hometu/2.jpg", site: "廉江12", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "银牌", textz2: "89" },
+      { img: "./../../images/hometu/3.jpg", site: "廉江3", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "69" },
+      { img: "./../../images/hometu/2.jpg", site: "廉江4", imgtx: "./../../images/hometu/44.png", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/1.jpg", site: "廉江11", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "69" },
+      { img: "./../../images/hometu/13.jpg", site: "廉江12", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "铜牌", textz2: "89" }
      
     ],
     mmp:[
-      { img: "./../../images/hometu/13.jpg", site: "廉江5", imgtx: "./../../images/hometu/6.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/1.jpg", site: "廉江6", imgtx: "./../../images/hometu/7.jpg", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/2.jpg", site: "廉江7", imgtx: "./../../images/hometu/9.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/11.jpg", site: "廉江8", imgtx: "./../../images/hometu/11.jpg", textwz: "深圳,那良", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/13.jpg", site: "廉江9", imgtx: "./../../images/hometu/1.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/6.jpg", site: "廉江10", imgtx: "./../../images/hometu/7.jpg", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/13.jpg", site: "廉江5", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/1.jpg", site: "廉江6", imgtx: "./../../images/hometu/44.png", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/2.jpg", site: "廉江7", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/11.jpg", site: "廉江8", imgtx: "./../../images/hometu/44.png", textwz: "深圳,那良", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/13.jpg", site: "廉江9", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/6.jpg", site: "廉江10", imgtx: "./../../images/hometu/44.png", textwz: "那良,香港", textwz1: "金牌", textz2: "89" },
       
-      { img: "./../../images/hometu/6.jpg", site: "廉江6", imgtx: "./../../images/hometu/7.jpg", textwz: "湛江,那良", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/1.jpg", site: "廉江7", imgtx: "./../../images/hometu/1.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/2.jpg", site: "廉江8", imgtx: "./../../images/hometu/9.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
-      { img: "./../../images/hometu/9.jpg", site: "廉江9", imgtx: "./../../images/hometu/1.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
-      { img: "./../../images/hometu/10.jpg", site: "廉江10", imgtx: "./../../images/hometu/2.jpg", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
+      { img: "./../../images/hometu/6.jpg", site: "廉江6", imgtx: "./../../images/hometu/44.png", textwz: "湛江,那良", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/1.jpg", site: "廉江7", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/2.jpg", site: "廉江8", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
+      { img: "./../../images/hometu/9.jpg", site: "廉江9", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89" },
+      { img: "./../../images/hometu/10.jpg", site: "廉江10", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2: "89"},
       
     ]
   },

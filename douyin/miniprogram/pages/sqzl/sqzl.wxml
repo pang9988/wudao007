@@ -1,0 +1,96 @@
+<view class='view-page'>
+  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
+
+  <view class='page-content'>
+
+    <view class="myaa">
+
+      <view style="background:#333365;width:100%;height:200rpx;">
+        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+        <image class="myaaa" src="./../../images/yt/44.png"></image>
+
+      </view>
+      <view class="mmm">
+        <view class="mmp">
+          <view class="qisiliao">
+            <view class="myab">
+              <open-data type="userAvatarUrl"></open-data>
+            </view>
+            <view class="mymz">昵称:
+              <open-data type="userNickName"></open-data>
+            </view>
+          </view>
+          <view class="myac" bindtap="jjxx">教练须知</view>
+        </view>
+      </view>
+      <view style="margin-top:250rpx;"></view>
+    </view>
+    <!-- 个人资料 -->
+    <view class="homezltop">
+      <!-- 性别年龄 -->
+     
+      <view class="homexing">
+      <view>
+        评级:33
+      </view>
+      <view>
+        身高:199
+      </view>
+        <view>
+          性别:男
+        </view>
+        <view>
+           属相:ru
+        </view>
+         <view>
+          星座:双子座
+        </view>
+      </view>
+      <!-- 属相血型 -->
+      <view class="homexing1">
+      <view style="height:40rpx;"> 
+      </view>
+      <view>
+        推介机构简码:99
+      </view>
+        <view>
+         年龄范围:22~99
+        </view>
+        <view>
+          血型:0
+        </view>
+         <view>
+          目前居住城市:廉江
+        </view>
+      </view>
+      <!-- 星座 目前居住城市 -->
+
+
+      
+    </view>
+    <!-- 业余爱好 -->
+    <view class="homecontent">
+     <view class="homeaihao">
+      <view>
+        业余爱好:玩手机,打波,
+      </view>
+      <view>
+        工作地区:广州,深圳,东莞
+      </view>
+      <view>
+        舞伴要求:18岁-22岁女
+      </view>
+    </view>
+    </view>
+    <!-- 图片 -->
+    <view class="gou">
+    <view class="hometu">
+      <!-- 组件 -->
+      <van-uploader file-list="{{ fileList }}"  max-count="6" bind:after-read="afterRead" />
+    </view>
+    </view>
+    <!-- 注册 -->
+    <view style="width:100%;"><view style=" height:90rpx;width:300rpx;border:1px solid red;margin:0 auto;text-align:center;line-height:90rpx;">注册</view></view>
+    <view style="margin-bottom:30rpx;"></view>
+  </view>
+</view>

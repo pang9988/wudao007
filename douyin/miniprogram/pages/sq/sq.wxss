@@ -1,4 +1,4 @@
-
+/* 
 .myaa{
    position:relative;
 }
@@ -64,7 +64,7 @@
 }
    van-cell-group .sq{
      background:#666;
-   }
+   } */
    .sqbottom{
      width:100%;
      display:flex;

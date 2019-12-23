@@ -55,7 +55,10 @@
     <view>请识别微信二维码联系获取</view>
     <!-- <view><image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg"></image></view> -->
     <view>
-     <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" data-src='./../../images/yt/2w.jpg' bindtap='previewImage' ></image>
+     <!-- <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" data-src='./../../images/yt/2w.jpg' bindtap='previewImage' ></image> -->
+     <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" mode="widthFix"  
+    data-src="./../../images/yt/2w.jpg" 
+    bindtap="previewImage"></image>
     </view>
     <view class="zcbottom">注册 </view>
   </view>

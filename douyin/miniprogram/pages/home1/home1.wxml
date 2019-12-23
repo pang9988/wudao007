@@ -2,16 +2,15 @@
   <!-- <navbar page-name="你当前页面的名字"></navbar> -->
   <image src="./../../images/yt/22.png" style="width:100%;height:100%;" mode="widthFix"></image>
   <view class='page-content'>
-    <!--这里放页面的内容-->
 <view class="homeaa">
-  <!--  内容-->
+  <!--  内容--> 
   <view class="homeab">
     <view class="homeleft" wx:for="{{cao}}" wx:key="incex">
       <view class="weizi">
         <image style="width:100%;" class="weizi1" mode="widthFix" src="{{item.img}}"></image>
         <view class="homesite">
-          <view style="margin-left:9rpx;color:#fff">
-            <van-icon name="location-o" />{{item.site}}</view>
+          <!-- <view style="margin-left:9rpx;color:#fff">
+            <van-icon name="location-o" />{{item.site}}</view> -->
           <view style="margin-right:25rpx;">
             <image class="hometou" src="{{item.imgtx}}"></image>
           </view>
@@ -55,10 +54,10 @@
       <view class="weizi">
         <image style="width:100%;" class="weizi1" mode="widthFix" src="{{item.img}}"></image>
         <view class="homesite">
-          <view style="margin-left:9rpx; color:#fff;">
-            <van-icon name="location-o" />{{item.site}}</view>
+          <!-- <view style="margin-left:9rpx; color:#fff;">
+            <van-icon name="location-o" />{{item.site}}</view> -->
           <view style="margin-right:25rpx;">
-            <image class="hometou" src="{{item.imgtx}}"></image>
+          <image class="hometou" src="{{item.imgtx}}"></image>
           </view>
         </view>
       </view>
