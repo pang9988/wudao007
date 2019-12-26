@@ -95,6 +95,43 @@
 					"id": -1,
 					"name": "pages/sqzl/sqzl",
 					"pathName": "pages/sqzl/sqzl",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navalliance/navalliance",
+					"pathName": "pages/navalliance/navalliance",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navpayment/navpayment",
+					"pathName": "pages/navpayment/navpayment",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navchenggong/chenggong",
+					"pathName": "pages/navchenggong/chenggong",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navchenggong/chenggong",
+					"pathName": "pages/navchenggong/chenggong",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navchenggong/navchenggong",
+					"pathName": "pages/navchenggong/navchenggong",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/navhezou/hezou",
+					"pathName": "pages/navhezou/hezou",
 					"scene": null
 				}
 			]

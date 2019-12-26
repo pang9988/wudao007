@@ -10,7 +10,12 @@
     "pages/zc/zc",
     "pages/jxaq/jxaq",
     "pages/homezl/homezl",
-    "pages/sqzl/sqzl"
+    "pages/sqzl/sqzl",
+    "pages/navalliance/navalliance",
+    "pages/navpayment/navpayment",
+    "pages/navchenggong/navchenggong",
+    "pages/navhezou/hezou"
+
     
   ],
   "window": {

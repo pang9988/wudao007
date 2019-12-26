@@ -1,0 +1,30 @@
+/* 资料 */
+.homezltop{
+  margin-left:73rpx;
+}
+.myaa{
+  position:relative;
+}
+.navchenggongcontenr{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+ 
+}
+.navcg{
+  width:100%;
+  position:absolute;
+  top:50%;left:50%;
+  transform:translate(-50%,-50%);
+}
+.navchenggongcontenr view:nth-child(2){
+  margin-top:40rpx; color:#000;
+}
+.navchenggongcontenr view:nth-child(3){
+  margin-top:40rpx; color:#000;
+}
+page{
+  background:#fff;
+}

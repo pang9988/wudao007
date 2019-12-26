@@ -1,0 +1,46 @@
+/* 资料 */
+.homezltop{
+  margin-left:73rpx;
+}
+
+.fanhui{
+  position:absolute;
+}
+.aqshu{
+  font-size:25rpx;
+  color:#fff;
+  position:absolute;
+  top:43%;
+  left:34%;
+}
+/* 内容 */
+.navpayconent{
+  width:99%;
+  display:flex;
+  justify-content: space-between;
+ 
+}
+.navconents1{
+  width:25%;
+  background:#000;
+  font-size:20rpx;
+}
+.navconents1 .aaleft{
+  margin-top:20rpx;
+  margin-left:12rpx;
+
+}
+.navconents2{
+  width:65%;
+  margin-top:40rpx;
+  
+}
+.navconents2 view{
+  margin-bottom:30rpx;
+  color:#000;
+}
+/*  */
+page{
+  background:#fff;
+}
+

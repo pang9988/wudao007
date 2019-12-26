@@ -1,4 +1,4 @@
-// pages/homezl/homezl.js
+// pages/navhezou/hezou.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  // 返回上一层
-  myfs(){
-    wx.navigateBack({
-      
-    })
-  },
+  }
 })

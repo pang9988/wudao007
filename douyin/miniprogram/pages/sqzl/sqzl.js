@@ -5,6 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 
+    isshow:true,
     fileList: [
       { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
       { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
@@ -39,6 +41,11 @@ Page({
 
 
 },
+  dianji(){
+    this.setData({
+      isshow:!this.data.isshow
+    })
+  },
 
 
 

@@ -1,0 +1,38 @@
+<view class='view-page'>
+  <view class='page-content'>
+    <view class="myaa">
+      <view style="background:#333365;width:100%;height:200rpx;">
+        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+         <view class="aqshu">购买舞伴的微信联系信息</view>
+        <image class="myaaa" src="./../../images/yt/44.png"></image>
+      </view>
+    </view>
+    <!-- 内容 -->
+    <view style=" margin:30rpx 50rpx 0;">
+    <view class="navpayconent">
+     <view class="navconents1">
+        <view style="width:100%;height:240rpx;">
+          <image src="./../../images/hometu/1.jpg" style="width:100%;height:100%;" mode="widthFix" mode='aspectFill'></image>
+        </view>
+       <view class="aaleft">工作地区:<text>新疆</text></view>
+       <view class="aaleft">等级:<text>金牌</text></view>
+       <view class="aaleft">综合评分:<text>99</text></view> 
+     </view>
+       <view class="navconents2">
+      <view> <text>金牌</text> 舞伴教练联系方式获取</view>
+       <view>请确认清楚后再认购, 本平</view> 
+      <view>台不支持退款</view>
+     </view>
+    </view>
+    <!-- 金额 -->
+   <view class="navgeiqain">
+     <view style="margin-top:30rpx;color:#000;">金额</view>
+      <view style="margin-top:40rpx; color:#000;"><text  style="font-size:50rpx;">¥</text><text style="font-size:40rpx;margin-left:50rpx;">30.00</text> </view>
+      <view style="border:1px solid #ddd;margin:30rpx 0 30rpx;"></view>
+      <button class="payment-button" style="background:#07c05f;color:#fff;">付款</button>
+   </view>
+   </view>
+  </view>
+</view>
+
+

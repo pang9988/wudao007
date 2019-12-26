@@ -1,0 +1,20 @@
+<view class='view-page'>
+  <view class='page-content'>
+    <view class="myaa">
+      <view style="background:#333365;width:100%;height:200rpx;">
+        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+        <image class="myaaa" src="./../../images/yt/44.png"></image>
+      </view>
+    </view>
+    <!-- 内容 -->
+    <view class="navcg">
+    <view class="navchenggongcontenr">
+      <view><image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg"></image> </view>
+      <view>购买成功</view>
+      <view>信息仅保留7天,请及时加载</view>
+    </view>
+    </view>
+  </view>
+</view>
+
+

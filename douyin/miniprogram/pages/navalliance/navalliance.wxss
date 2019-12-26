@@ -6,31 +6,18 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
+
 }
-.homexing{
-  width:30%;
-  display:flex;
-  flex-direction:column;
+.homezlconter view{
+  margin-bottom: 30rpx;
 }
-.homexing1{
-  width:60%;
-  display:flex;
-  flex-direction:column;
+.homezlconter1 view{
+  margin-bottom: 35rpx;
 }
-.homexing view,.homexing1 view{
-  margin-bottom:30rpx;
-}
-/* 业余爱好 */
-.homecontent {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-left: 73rpx;
-}
+
 .homeaihao view {
   width: 100%;
-  margin-bottom: 30rpx;
+
 }
 
 /* 图片 */

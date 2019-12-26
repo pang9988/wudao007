@@ -31,19 +31,19 @@
      
       <view class="homexing">
       <view>
-        评级:33
+        评级:<text>33</text>
       </view>
       <view>
-        身高:199
+        身高:<text>199</text>
       </view>
         <view>
-          性别:男
+          性别:<text>男</text>
         </view>
         <view>
-           属相:ru
+           属相:<text>ru</text>
         </view>
          <view>
-          星座:双子座
+          星座:<text>双子座</text>
         </view>
       </view>
       <!-- 属相血型 -->
@@ -51,16 +51,16 @@
       <view style="height:40rpx;"> 
       </view>
       <view>
-        推介机构简码:99
+        推介机构简码:<text>99</text>
       </view>
         <view>
-         年龄范围:22~99
+         年龄范围:<text>22~99</text>
         </view>
         <view>
-          血型:0
+          血型:<text>0</text>
         </view>
          <view>
-          目前居住城市:廉江
+          目前居住城市:<text>廉江</text>
         </view>
       </view>
       <!-- 星座 目前居住城市 -->
@@ -72,13 +72,13 @@
     <view class="homecontent">
      <view class="homeaihao">
       <view>
-        业余爱好:玩手机,打波,
+        业余爱好:<text>玩手机,打波,</text>
       </view>
       <view>
-        工作地区:广州,深圳,东莞
+        工作地区:<text>广州,深圳,东莞</text>
       </view>
       <view>
-        舞伴要求:18岁-22岁女
+        舞伴要求:<text>18岁-22岁女</text>
       </view>
     </view>
     </view>
@@ -90,7 +90,8 @@
     </view>
     </view>
     <!-- 注册 -->
-    <view style="width:100%;"><view style=" height:90rpx;width:300rpx;border:1px solid red;margin:0 auto;text-align:center;line-height:90rpx;">注册</view></view>
+    <view style="width:100%;"><button style=" height:90rpx;width:300rpx;border:1px solid red;margin:0 auto;text-align:center;line-height:60rpx;" bindtap="dianji">完成注册</button></view>
+    <view wx:if="{{isshow}}">你妹的</view>
     <view style="margin-bottom:30rpx;"></view>
   </view>
 </view>

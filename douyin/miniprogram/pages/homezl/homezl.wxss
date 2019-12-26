@@ -1,6 +1,6 @@
 /* 资料 */
 .homezltop {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -16,7 +16,7 @@
 }
 /* 业余爱好 */
 .homecontent {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

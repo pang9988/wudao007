@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: { 
+
     newDataArr:[],
     cao:[
       { img: "./../../images/hometu/7.jpg", site: "廉江", imgtx: "./../../images/hometu/44.png", textwz: "深圳,香港", textwz1: "金牌", textz2:"89" },
@@ -61,7 +62,17 @@ Page({
     console.log(newDataArr);
 
   },
-
+  // 点击图片进入详情 
+  leftdetails() {
+    wx.navigateTo({
+      url: '/pages/homezl/homezl'
+    })
+  },
+  rightdetails() {
+    wx.navigateTo({
+      url: '/pages/homezl/homezl'
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

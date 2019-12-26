@@ -20,7 +20,7 @@
               <open-data type="userNickName"></open-data>
             </view>
           </view>
-          <view class="myac" bindtap="jjxx">教练须知</view>
+          <view class="myac" bindtap="jjxx">用户须知</view>
         </view>
       </view>
       <view style="margin-top:250rpx;"></view>
