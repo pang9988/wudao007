@@ -1,6 +1,4 @@
 <view class='view-page'>
-  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
-
   <view class='page-content'>
     <!--这里放页面的内容-->
     <view class="myaa">
@@ -22,7 +20,7 @@
       </view>
       <view style="margin-top:300rpx;"></view> 
     </view>
-    <view style="border:1px solid #000; width:85%;margin:0 auto 30rpx;"></view>
+    <view style="border:1px solid #00f; width:85%;margin:0 auto 60rpx;"></view>
     <!-- 通道 -->
     <view class="mykejin">
     <view class="mybb" catchtap="shenqi">教练通道</view>

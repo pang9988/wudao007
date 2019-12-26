@@ -20,11 +20,10 @@
       </view>
       <view style="margin-top:250rpx;"></view>
     </view>
+
     <!-- 个人资料 -->
-    <view class="homezltop">
-      <!-- 性别年龄 -->
-      <view class="homexing">
-      <view class="section">
+  <view >
+     <view class="section" style="margin-left:73rpx;">
   <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
     <view class="picker">
       评级：{{array[index]}}
@@ -32,29 +31,35 @@
   </picker>
 </view>
 <!-- 个人手机号码 -->
-<!-- <van-cell-group>
+<van-cell-group>
   <van-field
     value="{{ username }}"
-    required
     clearable
-    label="个人手机号码"
+    label="个人手机号码:"
     placeholder="请输入手机号码"
     bind:click-icon="onClickIcon"
-     error
+    maxlength="11"
     custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 
 <van-field
     value="{{ username }}"
-    required
     clearable
-    label="推介方电话"
+    label="推介方电话:"
     placeholder="请输入推介方电话"
     bind:click-icon="onClickIcon"
-     error
+      maxlength="11"
     custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
-</van-cell-group> -->
+</van-cell-group>
+
+
+  </view>
+<!--  -->
+
+    <view class="homezltop">
+      <view class="homexing">  
+
 <!-- 身高 -->
 <view class="section">
   <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
@@ -80,6 +85,28 @@
   </picker>
 </view>
 <!-- 星座 -->
+
+
+
+      </view>
+      <view class="homexing1">
+      <!-- <view style="height:50rpx;"> 
+      </view> -->
+
+<view class="section">
+  <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
+    <view class="picker">
+      年龄范围:{{array5[index5]}}
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker bindchange="bindPickerChange6" value="{{index6}}" range="{{array6}}">
+    <view class="picker">
+      血型:{{array6[index6]}}
+    </view>
+  </picker>
+</view>
 <view class="section">
   <picker bindchange="bindPickerChange4" value="{{index4}}" range="{{array4}}">
     <view class="picker">
@@ -88,62 +115,55 @@
   </picker>
 </view>
       </view>
-
-      <view class="homexing1">
-      <view style="height:40rpx;"> 
-      </view>
-      <!-- 推介机构简码 -->
-<view class="section">
-  <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
-    <view class="picker">
-      推介机构简码:{{array5[index5]}}
     </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange6" value="{{index6}}" range="{{array6}}">
-    <view class="picker">
-      年龄范围:{{array6[index6]}}
-    </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange7" value="{{index7}}" range="{{array7}}">
-    <view class="picker">
-      血型:{{array7[index7]}}
-    </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange8" value="{{index8}}" range="{{array8}}">
-    <view class="picker">
-      目前居住城市:{{array8[index8]}}
-    </view>
-  </picker>
-</view>
-
-      </view>
-
-    </view>
-    <!-- 业余爱好 -->
+   <!-- /目前居住城市 -->
     <view class="homecontent">
      <view class="homeaihao">
-      <view>
-        业余爱好:<text>玩手机,打波,</text>
-      </view>
-      <view>
-        工作地区:<text>广州,深圳,东莞</text>
-      </view>
-      <view>
-        舞伴要求:<text>18岁-22岁女</text>
-      </view>
+<view class="section">
+  <picker mode="region" bindchange="bindRegionChange7" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      目前居住城市：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+</view>
     </view>
     </view>
+<!--  <!-- 业余爱好 --> 
+          <view style="margin-bottom:20rpx;">
+      <van-cell-group>
+  <van-field
+    value="{{ username }}"
+    clearable
+    label="业余爱好:"
+    placeholder="请输入业余爱好"
+    bind:click-icon="onClickIcon"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
+  />
+
+<van-field
+    value="{{ username }}"
+    clearable
+    label="工作地区:"
+    placeholder="请输入工作地区"
+    bind:click-icon="onClickIcon"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
+  />
+<van-field
+    value="{{ username }}"
+    clearable
+    label="舞伴要求:"
+    placeholder="请输入舞伴要求"
+    bind:click-icon="onClickIcon"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
+  />
+</van-cell-group>
+      
+      </view>
     <!-- 图片 -->
     <view class="gou">
     <view class="hometu">
       <!-- 组件 -->
-      <van-uploader file-list="{{ fileList }}"  max-count="6" bind:after-read="afterRead" />
+      <van-uploader deletable file-list="{{ fileList }}"  max-count="6" bind:after-read="afterRead" bind:delete="shanchu"/>
     </view>
     </view>
     <!-- 注册 -->

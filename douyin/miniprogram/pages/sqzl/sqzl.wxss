@@ -1,6 +1,8 @@
+
 /* 资料 */
 .homezltop{
   margin-left:73rpx;
+  margin-top:20rpx;
 }
 .homezltop {
   width: 80%;
@@ -53,3 +55,8 @@
 .van-uploader__preview-image{
   width:100rpx;height:100rpx;
 }
+/* 输入框的样式 */
+.van-field__input{
+  color:#fff !important;
+}
+.van-icon-clear:before{content:"\F031";}
