@@ -1,10 +1,7 @@
 <view class='view-page'>
   <!-- <navbar page-name="你当前页面的名字"></navbar> -->
-
   <view class='page-content'>
-
     <view class="myaa">
-
       <view style="background:#333365;width:100%;height:200rpx;">
         <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
         <image class="myaaa" src="./../../images/yt/44.png"></image>
@@ -82,6 +79,10 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
+    </view>
+    <!-- 我要购买 -->
+    <view style="margin:50rpx 0 50rpx;">
+      <view style="border:1px solid #fff;width:300rpx;height:50rpx;line-height:50rpx;text-align:center;margin:0 auto;" catchtap="homezlgoumai">我要购买</view>
     </view>
   </view>
 </view>

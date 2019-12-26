@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  // 返回首页
+  // fanhuihome1(){
+  //   wx.navigateBack({
+  //     url:'/pages/home1/home1'
+  //   })
+  // }
 })

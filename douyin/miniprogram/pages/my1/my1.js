@@ -80,5 +80,17 @@ Page({
     wx.navigateTo({
       url: '/pages/zc/zc',
     })
-  }
+  },
+  // 教练登录
+  shenqi1(){
+    wx.navigateTo({
+      url: '/pages/navpersonal/navpersonal',
+    })
+  },
+  // 加盟商注册
+  jiameng1() {
+    wx.navigateTo({
+      url: '/pages/navalliance/navalliance',
+    })
+  },
 })

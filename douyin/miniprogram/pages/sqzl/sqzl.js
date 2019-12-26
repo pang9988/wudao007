@@ -5,7 +5,107 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // 
+    // 评级假数据,
+    array: ['AAA', 'BBB', 'CCC', 'DDD'],
+    objectArray: [
+      {
+        id: 0,
+        name: 'AAA'
+      },
+      {
+        id: 1,
+        name: 'BBB'
+      },
+      {
+        id: 2,
+        name: 'CCC'
+      },
+      {
+        id: 3,
+        name: 'DDD'
+      }
+    ],
+    // 身高
+    // 身高假数据,
+    array1: ['155~165', '165~175', '175~180', '180以上'],
+    objectArray: [
+      {
+        id: 0,
+        name: '155~165'
+      },
+      {
+        id: 1,
+        name: '165~175'
+      },
+      {
+        id: 2,
+        name: '175~180'
+      },
+      {
+        id: 3,
+        name: '180以上'
+      }
+    ],
+    // 性别假数据,
+    array2: ['男', '女', '富婆', '富公'],
+    objectArray: [
+      {
+        id: 0,
+        name: '男'
+      },
+      {
+        id: 1,
+        name: '女'
+      },
+      {
+        id: 2,
+        name: '富婆'
+      },
+      {
+        id: 3,
+        name: '富公'
+      }
+    ],
+    // 身高假数据,
+    array3: ['155~165', '165~175', '175~180', '180以上'],
+    objectArray: [
+      {
+        id: 0,
+        name: '155~165'
+      },
+      {
+        id: 1,
+        name: '165~175'
+      },
+      {
+        id: 2,
+        name: '175~180'
+      },
+      {
+        id: 3,
+        name: '180以上'
+      }
+    ],
+    // 身高假数据,
+    array4: ['155~165', '165~175', '175~180', '180以上'],
+    objectArray: [
+      {
+        id: 0,
+        name: '155~165'
+      },
+      {
+        id: 1,
+        name: '165~175'
+      },
+      {
+        id: 2,
+        name: '175~180'
+      },
+      {
+        id: 3,
+        name: '180以上'
+      }
+    ],
     isshow:true,
     fileList: [
       { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
@@ -47,7 +147,41 @@ Page({
     })
   },
 
-
+// 评级:
+  bindPickerChange: function (e) {
+    // console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index: e.detail.value
+    })
+  },
+// 身高:
+  bindPickerChange1: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index1: e.detail.value
+    })
+  },
+// 性别:
+  bindPickerChange2: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index2: e.detail.value
+    })
+  },
+// 属相:
+  bindPickerChange3: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index3: e.detail.value
+    })
+  },
+// 星座:
+  bindPickerChange4: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      index4: e.detail.value
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -84,7 +218,7 @@ Page({
 
   },
 
-  /**
+  /** 
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
@@ -103,5 +237,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 返回上一层
+  myfs(){
+    wx.navigateBack({
+      
+    })
   }
 })

@@ -14,7 +14,8 @@
     "pages/navalliance/navalliance",
     "pages/navpayment/navpayment",
     "pages/navchenggong/navchenggong",
-    "pages/navhezou/hezou"
+    "pages/navhezou/hezou",
+    "pages/navpersonal/navpersonal"
 
     
   ],

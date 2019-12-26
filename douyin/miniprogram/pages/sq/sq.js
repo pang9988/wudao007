@@ -78,7 +78,7 @@ Page({
   //     urls: [current]
   //   })
   // },
-// 返回
+// 返回上一层
   myfs() {
     wx.navigateBack({
       url: '/pages/anquan/anquan',
@@ -88,6 +88,11 @@ Page({
     wx.navigateTo({
       url: '/pages/jxaq/jxaq',
     })
+  },
+  // 教练注册跳转
+  jiaoliazc() {
+    wx.navigateTo({
+      url: '/pages/sqzl/sqzl'
+    })
   }
-
 })

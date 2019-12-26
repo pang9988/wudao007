@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  // 返回上一层
+  myfs() {
+    wx.navigateBack({
+
+    })
+  },
 })

@@ -2,7 +2,7 @@
   <view class='page-content'>
     <view class="myaa">
       <view style="background:#333365;width:100%;height:200rpx;">
-        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+        <!-- <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image> -->
         <image class="myaaa" src="./../../images/yt/44.png"></image>
       </view>
       <view class="mmm">
@@ -22,44 +22,46 @@
     </view>
     <!-- 个人资料 -->
     <view class="homezltop">
-    <!-- 名称 -->
-     <view class="homezlconter">
-      <view>
-     加盟商编码:
-    </view>
-    <view>
-     加盟等级:
-    </view>
-    <view>
-     名下教练数:
-    </view>
-    <view>
-     教练推广应得收益:
-    </view>
-    <view>
-     当前教练推介收益:
-    </view>
-    <view>
-     当月平台利润分配:
-    </view>
-    <view>
-      当有总收益:
-    </view>
-     </view>
-     <!-- 内容 -->
-     <view class="homezlconter1">
-       <view>1234452222</view>
-       <view>123445</view>
-       <view>123445123</view>
-       <view>123445</view>
-       <view>123445</view>
-       <view>123445</view>
-       <view>123445</view>
-     </view>
+      <!-- 名称 -->
+      <view class="homezlconter">
+        <view>
+          加盟商编码:
+        </view>
+        <view>
+          加盟等级:
+        </view>
+        <view>
+          名下教练数:
+        </view>
+        <view>
+          教练推广应得收益:
+        </view>
+        <view>
+          当前教练推介收益:
+        </view>
+        <view>
+          当月平台利润分配:
+        </view>
+        <view>
+          当有总收益:
+        </view>
+      </view>
+      <!-- 内容 -->
+      <view class="homezlconter1">
+        <view>1234452222</view>
+        <view>123445</view>
+        <view>123445123</view>
+        <view>123445</view>
+        <view>123445</view>
+        <view>123445</view>
+        <view>123445</view>
+      </view>
     </view>
     <!-- 注册 -->
-    <view style="width:100%;margin:50rpx 0 0 0;"><button style="navbutton">返回首页</button></view>
+    <view style="width:100%;margin:50rpx 0 0 0;">
+      <navigator style="width: 300rpx;height: 80rpx;margin: 0 auto;text-align: center;line-height: 80rpx;background: #fff;color: #000;" open-type="switchTab" url="../home1/home1">返回首页</navigator>
+    </view>
+
     <view style="margin-bottom:30rpx;"></view>
   </view>
 </view>
-

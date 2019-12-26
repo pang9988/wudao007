@@ -62,5 +62,18 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 返回上一层
+  myfs(){
+   wx.navigateBack({
+     
+   })
+  },
+  // 付款跳转
+  navpaymentfk(){
+    wx.navigateTo({
+      url: '/pages/navchenggong/navchenggong',
+    })
   }
+
 })

@@ -32,50 +32,50 @@
     value="{{ username }}"
     required
     clearable
-    label="名字"
-    placeholder="请输入名字"
+    label="合作商名称:"
+    placeholder="请输入合作商名称"
     bind:click-icon="onClickIcon"
     error
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 
 <van-field
     value="{{ phone }}"
       required
     clearable
-    label="手机号"
+    label="手机号:"
     placeholder="请输入手机号"
       maxlength='11'
         error
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 <van-field
     value="{{ shenfen }}"
       required
     clearable
-    label="身份证号"
+    label="身份证号:"
     placeholder="请输入身份证号"
       error
     maxlength='18'
  
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
    <van-field
     value="{{ password }}"
     required
     clearable
-    label="激活码"
+    label="激活码:"
     placeholder="请输入激活码"
       error
-    bind:click-icon="onClickIcon"
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    bind:click-icon="onClickIcon" 
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 </van-cell-group>
   <view class="sqbottom">
     <view>获取激活码需要联系评审团总教练:朱江</view>
     <view>请识别微信二维码联系获取</view>
     <view><image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg"></image></view>
-    <view class="zcbottom">申请 </view>
+    <view class="zcbottom" catchtap="jiam">申请 </view>
   </view>
     </view>
   </view>

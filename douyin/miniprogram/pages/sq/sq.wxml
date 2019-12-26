@@ -19,7 +19,7 @@
             <view class="mymz">昵称:
               <open-data type="userNickName"></open-data>
             </view>
-          </view>
+          </view> 
           <view class="myac" bindtap="jjxx" >教练须知</view>
         </view>
       </view>
@@ -36,7 +36,7 @@
     placeholder="请输入登录密码"
     bind:click-icon="onClickIcon"
      error
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 
 <van-field
@@ -47,7 +47,7 @@
     placeholder="请输入激活码"
     bind:click-icon="onClickIcon"
      error
-    custom-style="background:#091018;width:90%;margin:0 auto;color:#fff"
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 </van-cell-group>
   <view class="sqbottom">
@@ -60,7 +60,7 @@
     data-src="./../../images/yt/2w.jpg" 
     bindtap="previewImage"></image>
     </view>
-    <view class="zcbottom">注册 </view>
+    <view class="zcbottom" catchtap="jiaoliazc">注册 </view>
   </view>
     </view>
   </view>

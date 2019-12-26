@@ -16,16 +16,21 @@
             <view class="mymz">
               <open-data type="userNickName"></open-data>
             </view>
-          </view>
+          </view> 
           <view class="myac" catchtap="aq">客户安全须知</view>
         </view>
       </view>
-      <view style="margin-top:300rpx;"></view>
+      <view style="margin-top:300rpx;"></view> 
     </view>
     <view style="border:1px solid #000; width:85%;margin:0 auto 30rpx;"></view>
+    <!-- 通道 -->
+    <view class="mykejin">
+    <view class="mybb" catchtap="shenqi">教练通道</view>
+      <view class="mybb mybb1" catchtap="shenqi1"> 教练登录</view>
+      <view class="mybb " catchtap="jiameng">加盟商通道</view>
+      <view class="mybb mybb1" catchtap="jiameng1">加盟商登录</view>
+    </view>
     <view class="myba">
-      <view class="mybb" catchtap="shenqi">申请成为舞蹈教练</view>
-      <view class="mybb" catchtap="jiameng">加盟商注册</view>
       <view style="margin:20rpx 0 20rpx;color:#fff">个人预约订单</view>
       <view style="border-bottom:1px solid green;width:40%;margin-bottom:9rpx;"></view>
     </view>

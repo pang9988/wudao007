@@ -44,12 +44,12 @@ page {
 }
 
 .myaaa {
-  width: 100rpx;
+  width: 300rpx;
   height: 100rpx;
   border-radius: 50%;
   position: relative;
   top: 24%;
-  left: 16%;
+  left: 5%;
 }
 
 .myfanhui {

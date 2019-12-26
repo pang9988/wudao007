@@ -29,7 +29,7 @@
      <view style="margin-top:30rpx;color:#000;">金额</view>
       <view style="margin-top:40rpx; color:#000;"><text  style="font-size:50rpx;">¥</text><text style="font-size:40rpx;margin-left:50rpx;">30.00</text> </view>
       <view style="border:1px solid #ddd;margin:30rpx 0 30rpx;"></view>
-      <button class="payment-button" style="background:#07c05f;color:#fff;">付款</button>
+      <button class="payment-button" style="background:#07c05f;color:#fff;"catchtap="navpaymentfk" >付款</button>
    </view>
    </view>
   </view>

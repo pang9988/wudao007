@@ -2,12 +2,12 @@
    position:relative;
 }
 .myaaa{
-  width:100rpx;
+  width:300rpx;
   height:100rpx;
   border-radius:50%;
   position:relative;
   top:24%;
-  left:16%;
+  left:5%;
 }
 .mmm{
   margin:0 auto 0;
@@ -53,21 +53,41 @@
 }
 .mybb{
   width:300rpx;
-  height:50rpx;
+  height:80rpx;
   background:#666;
   border-radius:9rpx;
   color:#fff;
-  line-height:50rpx;
+  line-height:80rpx;
   text-align:center;
   font-size:28rpx;
+}
+/* 通道 */
+.mykejin{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
 }
 .myba{
   margin-left:50rpx;
 
 }
-.mybb+.mybb{
-  margin-top:33rpx;
+.mybb{
+  width:40%;
 }
+.mybb:nth-child(1){
+  margin-bottom:33rpx;
+  
+}
+.mybb:nth-child(2){
+  margin-bottom:33rpx;
+}
+.mybb1{
+  background:orange !important;
+}
+
+/* .mybb+.mybb{
+  margin-top:33rpx;
+} */
 .caonime{
   width:100%;
   display:flex;

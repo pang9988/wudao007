@@ -1,4 +1,4 @@
-// pages/homezl/homezl.js
+// pages/navpersonal/navpersonal.js
 Page({
 
   /**
@@ -63,16 +63,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  // 返回上一层
   myfs(){
     wx.navigateBack({
       
-    })
-  },
-  // 点击购买
-  homezlgoumai(){
-    wx.navigateTo({
-      url: '/pages/navpayment/navpayment',
     })
   }
 })
