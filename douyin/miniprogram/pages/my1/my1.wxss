@@ -6,8 +6,8 @@
   height:100rpx;
   border-radius:50%;
   position:relative;
-  top:24%;
-  left:5%;
+  top:33%;
+  left:33%;
 }
 .mmm{
   margin:0 auto 0;

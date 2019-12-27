@@ -64,15 +64,10 @@ Page({
 
   },
   // 返回上一级
-  myfss(){
+  myfs(){
     wx.navigateBack({
       
     })
   },
-  // 加盟商申请按钮
-  // jiam(){
-  //   wx.navigateTo({
-  //     url: '/pages/navalliance/navalliance',
-  //   })
-  // }
+
 })

@@ -1,11 +1,9 @@
 <view class='view-page'>
-  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
-  <view class='page-content'>
+  <view class='page-content'> 
     <view class="myaa">
       <view style="background:#333365;width:100%;height:200rpx;">
         <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
         <image class="myaaa" src="./../../images/yt/44.png"></image>
-
       </view>
       <view class="mmm">
         <view class="mmp">
@@ -13,15 +11,19 @@
             <view class="myab">
               <open-data type="userAvatarUrl"></open-data>
             </view>
-            <view class="mymz">昵称:
-              <open-data type="userNickName"></open-data>
-            </view>
+           
           </view>
-          <view class="myac" bindtap="jjxx">用户须知</view>
+          <view class="myac" bindtap="jjxx">教练须知</view>
         </view>
       </view>
-      <view style="margin-top:250rpx;"></view>
+     
+      <view style="margin-top:200rpx;"></view>
     </view>
+      <view style="margin-right:73rpx;">
+       <view class="mymz">昵称:
+              <open-data type="userNickName"></open-data>
+            </view>
+      </view>
     <!-- 个人资料 -->
     <view class="homezltop">
       <!-- 性别年龄 -->

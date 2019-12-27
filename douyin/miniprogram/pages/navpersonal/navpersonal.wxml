@@ -11,16 +11,21 @@
             <view class="myab">
               <open-data type="userAvatarUrl"></open-data>
             </view>
-            <view class="mymz">昵称:
-              <open-data type="userNickName"></open-data>
-            </view>
+           
           </view>
           <view class="myac" bindtap="jjxx">教练须知</view>
         </view>
       </view>
-      <view style="margin-top:250rpx;"></view>
+     
+      <view style="margin-top:200rpx;"></view>
     </view>
+      <view style="margin-right:73rpx;">
+       <view class="mymz">昵称:
+              <open-data type="userNickName"></open-data>
+            </view>
+      </view>
    <!-- 今日我开工 -->
+   <view style="height:20rpx;"></view>
     <view style="width:90%; display:flex;margin-left:73rpx;">
       <view style="width:50%;" >今日我开工</view>
       <view><image style="width:200rpx;height:40rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
@@ -75,7 +80,7 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
     </view>
-    <view style="margin-bottom:70rpx;"></view>
+    <view style="height:90rpx;"></view>
   </view>
 </view>
 

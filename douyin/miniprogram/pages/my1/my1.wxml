@@ -1,7 +1,8 @@
 <view class='view-page'>
-  <view class='page-content'>
+  <view class='page-content'> 
     <view class="myaa">
       <view style="background:#333365;width:100%;height:200rpx;">
+        <!-- <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image> -->
         <image class="myaaa" src="./../../images/yt/44.png"></image>
       </view>
       <view class="mmm">
@@ -10,15 +11,19 @@
             <view class="myab">
               <open-data type="userAvatarUrl"></open-data>
             </view>
-            <view class="mymz">
-              <open-data type="userNickName"></open-data>
-            </view>
-          </view> 
-          <view class="myac" catchtap="aq">客户安全须知</view>
+           
+          </view>
+          <view class="myac" bindtap="jjxx">教练须知</view>
         </view>
       </view>
-      <view style="margin-top:300rpx;"></view> 
+     
+      <view style="margin-top:200rpx;"></view>
     </view>
+      <view style="margin-right:73rpx;">
+       <view class="mymz">昵称:
+              <open-data type="userNickName"></open-data>
+            </view>
+      </view>
     <view style="border:1px solid #00f; width:85%;margin:0 auto 60rpx;"></view>
     <!-- 通道 -->
     <view class="mykejin">
@@ -47,8 +52,9 @@
       <view class="slide-item">
         <image style="width:100%;" src="./../../images/hometu/3.jpg"></image>
       </view>
+      <view style="height:80rpx;"></view>
     </view>
     <!-- 空 -->
-    <view style="margin-bottom:40rpx;"></view>
+    <view style="height:80rpx;"></view>
   </view>
 </view>

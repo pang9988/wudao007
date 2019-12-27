@@ -48,8 +48,8 @@ page {
   height: 100rpx;
   border-radius: 50%;
   position: relative;
-  top: 32%;
-  left: 5%;
+  top: 33%;
+  left: 33%;
 }
 
 .myfanhui {
@@ -91,6 +91,8 @@ page {
 .mymz {
   color: #fff;
   margin-top: 20rpx;
+  margin-left:73rpx;
+  height:110rpx;
 }
 
 .myac {

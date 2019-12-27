@@ -4,7 +4,7 @@
       <view style="background:#333365;width:100%;height:200rpx;">
         <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
          <view class="aqshu">购买舞伴的微信联系信息</view>
-        <image class="myaaa" src="./../../images/yt/44.png"></image>
+        <!-- <image class="myaaa" src="./../../images/yt/44.png"></image> -->
       </view>
     </view>
     <!-- 内容 -->
