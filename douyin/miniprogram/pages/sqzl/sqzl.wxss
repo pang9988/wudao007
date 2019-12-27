@@ -32,7 +32,7 @@
 }
 .homeaihao view {
   width: 100%;
-  margin-bottom: 30rpx;
+  margin-bottom: 3rpx;
 }
 
 /* 图片 */
@@ -55,8 +55,18 @@
 .van-uploader__preview-image{
   width:100rpx;height:100rpx;
 }
-/* 输入框的样式 */
-.van-field__input{
+
+/* 图片 */
+.page__bd .weui-cell {
+  padding:0;
+}
+.page__bd .weui-uploader__file{
+  margin-right:6rpx;
+  margin-bottom:6rpx;
+}
+.weui-uploader__tips,.weui-uploader__info {
   color:#fff !important;
 }
-.van-icon-clear:before{content:"\F031";}
+.weui-uploader__bd{
+  margin-bottom:22rpx !important;
+}

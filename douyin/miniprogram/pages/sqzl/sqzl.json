@@ -3,6 +3,10 @@
     "navbar": "/components/navbar/index",
     "van-field": "/@vant/weapp/field/index",
       "van-icon": "/@vant/weapp/icon/index",
-      "van-uploader": "/@vant/weapp/uploader/index"
-  }
+      "van-uploader": "/@vant/weapp/uploader/index",
+      "mp-uploader": "./../../components/uploader/uploader",
+      "mp-cells": "./../../components/cells/cells",
+      "mp-cell": "./../../components/cell/cell"
+  },
+  "navigationBarTitleText":"UI组件库"
 }

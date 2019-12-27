@@ -23,6 +23,7 @@
     <!-- 个人资料 -->
     <view class="homezltop">
       <!-- 名称 -->
+      <block>
       <view class="homezlconter">
         <view>
           加盟商编码:
@@ -45,17 +46,26 @@
         <view>
           当有总收益:
         </view>
+       
       </view>
       <!-- 内容 -->
       <view class="homezlconter1">
-        <view>1234452222</view>
-        <view>123445</view>
-        <view>123445123</view>
-        <view>123445</view>
-        <view>123445</view>
-        <view>123445</view>
-        <view>123445</view>
+      <!--  加盟商编码-->
+        <view>{{a}}</view>
+        <!--  加盟等级-->
+        <view>{{b}}</view>
+        <!-- 名下教练数 -->
+        <view></view>
+        <!-- 教练推广应得收益 -->
+        <view></view>
+        <!-- 当前教练推介收益 -->
+        <view></view>
+        <!--当月平台利润分配  -->
+        <view></view>
+        <!-- 当有总收益 -->
+        <view></view>
       </view>
+       </block>
     </view>
     <!-- 注册 -->
     <view style="width:100%;margin:50rpx 0 0 0;">

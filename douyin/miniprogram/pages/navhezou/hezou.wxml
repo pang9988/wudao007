@@ -1,14 +1,9 @@
 <view class='view-page'>
-  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
-
   <view class='page-content'>
-    <!--这里放页面的内容-->
     <view class="myaa">
-    
       <view style="background:#333365;width:100%;height:200rpx;">
        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
-        <image class="myaaa" src="./../../images/yt/44.png"></image>
-       
+        <image class="myaaa" src="./../../images/yt/44.png"></image> 
       </view>
       <view class="mmm">
         <view class="mmp">

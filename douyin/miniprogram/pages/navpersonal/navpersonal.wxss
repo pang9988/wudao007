@@ -41,6 +41,11 @@
 }
 .homet{
   width:30%;
+  margin-right: 20rpx;
+margin-bottom: 14rpx;
+border-radius: 30rpx;
+overflow: hidden;
+
 }
 .gou{
   margin-left:73rpx;
@@ -52,4 +57,23 @@
 }
 .van-uploader__preview-image{
   width:100rpx;height:100rpx;
+}
+/*  */
+.navpeitan view{
+margin-left:73rpx;
+margin-bottom:30rpx;
+}
+
+/*  */
+.navshenconter{
+  width:90%;
+  display:flex;
+  justify-content: space-around;
+  margin-left:73rpx;
+}
+.navleft{
+  width:50%;
+}
+.nleft+.nleft{
+   margin-top:30rpx;
 }

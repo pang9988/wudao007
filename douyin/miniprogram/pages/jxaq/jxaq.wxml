@@ -1,9 +1,6 @@
 <view class='view-page'>
-  <!-- <navbar page-name="免责协议书"></navbar> -->
-    <view style="background:#333365;width:100%;height:200rpx;"></view>
-           
+    <view style="background:#333365;width:100%;height:200rpx;"></view>       
   <view class='page-content'>
-    <!--这里放页面的内容-->
      <view class="wan">
      <image class="aqfanhui" src="./../../images/yt/fh.png" bindtap="jxfh"></image>
      <view class="aqshu">教练须知</view>

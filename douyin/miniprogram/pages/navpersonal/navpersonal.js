@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+  
   },
 
   /**
@@ -67,5 +67,9 @@ Page({
     wx.navigateBack({
       
     })
+  },
+  // 开始挂牌
+  kaishiguanp(){
+    console.log("开始挂牌了")
   }
 })

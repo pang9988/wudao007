@@ -20,114 +20,38 @@
       </view>
       <view style="margin-top:250rpx;"></view>
     </view>
-    <!-- 个人资料 -->
-    <view class="homezltop">
-      <!-- 性别年龄 -->
-      <view class="homexing">
-      <view class="section">
-  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-    <view class="picker">
-      评级：{{array[index]}}
+   <!-- 今日我开工 -->
+    <view style="width:90%; display:flex;margin-left:73rpx;">
+      <view style="width:50%;" >今日我开工</view>
+      <view><image style="width:200rpx;height:40rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
     </view>
-  </picker>
-</view>
-<!-- 个人手机号码 -->
-<!-- <van-cell-group>
-  <van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="个人手机号码"
-    placeholder="请输入手机号码"
-    bind:click-icon="onClickIcon"
-     error
-    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
-  />
-
-<van-field
-    value="{{ username }}"
-    required
-    clearable
-    label="推介方电话"
-    placeholder="请输入推介方电话"
-    bind:click-icon="onClickIcon"
-     error
-    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
-  />
-</van-cell-group> -->
-<!-- 身高 -->
-<view class="section">
-  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
-    <view class="picker">
-      身高:{{array1[index1]}}
-    </view>
-  </picker>
-</view>
-<!-- 性别 -->
-<view class="section">
-  <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
-    <view class="picker">
-      性别:{{array2[index2]}}
-    </view>
-  </picker>
-</view>
-<!-- 属相 -->
-<view class="section">
-  <picker bindchange="bindPickerChange3" value="{{index3}}" range="{{array3}}">
-    <view class="picker">
-      属相:{{array3[index3]}}
-    </view>
-  </picker>
-</view>
-<!-- 星座 -->
-<view class="section">
-  <picker bindchange="bindPickerChange4" value="{{index4}}" range="{{array4}}">
-    <view class="picker">
-      星座:{{array4[index4]}}
-    </view>
-  </picker>
-</view>
-      </view>
-
-      <view class="homexing1">
-      <view style="height:40rpx;"> 
-      </view>
-      <!-- 推介机构简码 -->
-<view class="section">
-  <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
-    <view class="picker">
-      推介机构简码:{{array5[index5]}}
-    </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange6" value="{{index6}}" range="{{array6}}">
-    <view class="picker">
-      年龄范围:{{array6[index6]}}
-    </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange7" value="{{index7}}" range="{{array7}}">
-    <view class="picker">
-      血型:{{array7[index7]}}
-    </view>
-  </picker>
-</view>
-<view class="section">
-  <picker bindchange="bindPickerChange8" value="{{index8}}" range="{{array8}}">
-    <view class="picker">
-      目前居住城市:{{array8[index8]}}
-    </view>
-  </picker>
-</view>
-
-      </view>
-
-    </view>
+     <!-- 平台评级个人资料 -->
+     <view class="navpeitan">
+     <!-- text中写入插值语法{{}} -->
+       <view>平台评级:<text></text> </view>
+       <view>个人手机号码:<text></text> </view>
+       <view>推介方电话:<text></text> </view>
+     </view>
+     <!--身高  -->
+     <view class="navshenconter">
+       <view class="navleft">
+     <!-- text中写入插值语法{{}} -->
+        <view class="nleft">身高:<text></text></view>
+        <view class="nleft">性别:<text></text></view>
+        <view class="nleft">年龄范围:<text></text></view>
+     </view>
+       <view class="navleft">
+     <!-- text中写入插值语法{{}} -->
+        <view class="nleft">星座:<text></text></view>
+        <view class="nleft">属相:<text></text></view>
+        <view class="nleft">血型:<text></text></view>
+     </view>
+     </view>
     <!-- 业余爱好 -->
     <view class="homecontent">
      <view class="homeaihao">
+     <!-- text中写入插值语法{{}} -->
+       <view style="margin-top:30rpx;">目前居住城市:<text>广东省广州市番禺区七号小镇</text> </view>
       <view>
         业余爱好:<text>玩手机,打波,</text>
       </view>
@@ -151,7 +75,7 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
     </view>
-    <view style="margin-bottom:50rpx;"></view>
+    <view style="margin-bottom:70rpx;"></view>
   </view>
 </view>
 

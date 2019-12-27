@@ -48,7 +48,7 @@ page {
   height: 100rpx;
   border-radius: 50%;
   position: relative;
-  top: 24%;
+  top: 32%;
   left: 5%;
 }
 
@@ -114,4 +114,8 @@ view {
 navbutton{
   height:90rpx;width:300rpx;border:1px solid #fff;margin:0 auto;text-align:center;line-height:60rpx;background:rgba(0,0,0,0);color:#fff;
 }
-
+/*  */
+/* 输入框的样式 */
+.van-field__input{
+  color:#fff !important;
+}

@@ -1,14 +1,9 @@
 <view class='view-page'>
-  <!-- <navbar page-name="你当前页面的名字"></navbar> -->
-
   <view class='page-content'>
-    <!--这里放页面的内容-->
     <view class="myaa">
-    
       <view style="background:#333365;width:100%;height:200rpx;">
        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
-        <image class="myaaa" src="./../../images/yt/44.png"></image>
-       
+        <image class="myaaa" src="./../../images/yt/44.png"></image> 
       </view>
       <view class="mmm">
         <view class="mmp">
@@ -30,35 +25,30 @@
 <van-cell-group>
   <van-field
     value="{{ username }}"
-    required
     clearable
     label="登录密码"
     placeholder="请输入登录密码"
-    bind:click-icon="onClickIcon"
-     error
     custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 
 <van-field
     value="{{ username }}"
-    required
     clearable
     label="激活码"
     placeholder="请输入激活码"
-    bind:click-icon="onClickIcon"
-     error
     custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
 </van-cell-group>
   <view class="sqbottom">
     <view>获取激活码需要联系评审团总教练:朱江</view>
     <view>请识别微信二维码联系获取</view>
-    <!-- <view><image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg"></image></view> -->
     <view>
-     <!-- <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" data-src='./../../images/yt/2w.jpg' bindtap='previewImage' ></image> -->
-     <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" mode="widthFix"  
+
+     <!-- <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" mode="widthFix"  
     data-src="./../../images/yt/2w.jpg" 
-    bindtap="previewImage"></image>
+    bindtap="previewImage" ></image> -->
+     <image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg" mode="widthFix"  
+    show-menu-by-longpress ></image>
     </view>
     <view class="zcbottom" catchtap="jiaoliazc">注册 </view>
   </view>

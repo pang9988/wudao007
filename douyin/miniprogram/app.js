@@ -19,5 +19,10 @@ App({
         console.log(err);
       }
     })
+  },
+  myfss(){
+    wx.navigateBack({
+      
+    })
   }
 })

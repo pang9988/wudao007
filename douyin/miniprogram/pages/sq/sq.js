@@ -71,13 +71,6 @@ Page({
       urls: [current]  //当前显示图片的链接
     })
   },
-  // previewImage (e) {
-  //   var current = e.target.dataset.src;
-  //   wx.previewImage({
-  //     current: current,
-  //     urls: [current]
-  //   })
-  // },
 // 返回上一层
   myfs() {
     wx.navigateBack({

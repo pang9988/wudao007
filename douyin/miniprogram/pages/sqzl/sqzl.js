@@ -5,8 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // 删除图片
-    indextu:[],
+    // 上传图片
+    files: [
+      // {url: '',}, {loading: true}, {error: true}
+      ],
      // 目前居住城市假数据,
     region: ['广东省', '广州市', '海珠区'],
     customItem: '全部',
@@ -68,47 +70,7 @@ Page({
       { id: 2, name: 'AB'},
       { id: 3, name: 'O'}
     ],
-    isshow:true,
-    fileList: [
-      { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
-      { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
-      { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
-      { url: 'https://img.yzcdn.cn/vant/leaf.jpg', name: '图片1' },
-      // Uploader 根据文件后缀来判断是否为图片文件
-      // 如果图片 URL 中不包含类型信息，可以添加 isImage 标记来声明
-      {
-        url: 'http://iph.href.lu/60x60?text=default',
-        name: '图片2',
-        isImage: true
-      }
-    ]
   },
-
-  afterRead(event) {
-    const { file } = event.detail;
-    // 当设置 mutiple 为 true 时, file 为数组格式，否则为对象格式
-    wx.uploadFile({
-      url: 'https://example.weixin.qq.com/upload', // 仅为示例，非真实的接口地址
-      filePath: file.path,
-      name: 'file',
-      formData: { user: 'test' },
-      success(res) {
-        // 上传完成需要更新 fileList
-        const { fileList = [] } = this.data;
-        fileList.push({ ...file, url: res.data });
-        this.setData({ fileList });
-      }
-    });
-  
-
-
-},
-  dianji(){
-    this.setData({
-      isshow:!this.data.isshow
-    })
-  },
-
 // 评级:
   bindPickerChange: function (e) {
     // console.log('picker发送选择改变，携带值为', e.detail.value)
@@ -170,7 +132,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // 上传图片
+    this.shangquang()
   },
 
   /**
@@ -227,10 +190,51 @@ Page({
       
     })
   },
-  // 删除
-  shanchu(e){
+  // 自定义封装函数
+  shangquang(){
     this.setData({
-      indextu: e.detail.index
+      selectFile: this.selectFile.bind(this),
+      uplaodFile: this.uplaodFile.bind(this)
     })
+  
+  },
+  chooseImage: function (e) {
+    var that = this;
+    wx.chooseImage({
+      sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+      sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+      success: function (res) {
+        // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
+        that.setData({
+          files: that.data.files.concat(res.tempFilePaths)
+        });
+      }
+    })
+  },
+  previewImage: function (e) {
+    wx.previewImage({
+      current: e.currentTarget.id, // 当前显示图片的http链接
+      urls: this.data.files // 需要预览的图片http链接列表
+    })
+  },
+  selectFile(files) {
+    console.log('files', files)
+    // 返回false可以阻止某次文件上传
+  },
+  uplaodFile(files) {
+    console.log('upload files', files)
+    // 文件上传的函数，返回一个promise
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        reject('some error')
+      }, 1000)
+    })
+  },
+  uploadError(e) {
+    console.log('upload error', e.detail)
+  },
+  uploadSuccess(e) {
+    console.log('upload success', e.detail)
   }
+  
 })

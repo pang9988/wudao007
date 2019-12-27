@@ -9,11 +9,14 @@
     <!-- 内容 -->
     <view class="navcg">
     <view class="navchenggongcontenr">
-      <view><image style="width:300rpx;height:300rpx;" src="./../../images/yt/2w.jpg"></image> </view>
+      <view><image style="width:300rpx;height:300rpx;" show-menu-by-longpress src="./../../images/yt/2w.jpg"></image> </view>
       <view>购买成功</view>
       <view>信息仅保留7天,请及时加载</view>
+      <view style="margin-top:20rpx;"></view>
+         <navigator style="width: 300rpx;height: 80rpx;margin: 0 auto;text-align: center;line-height: 80rpx;background: #0f0;color: #000;" open-type="switchTab" url="../home1/home1">返回首页</navigator>
     </view>
     </view>
+ 
   </view>
 </view>
 
