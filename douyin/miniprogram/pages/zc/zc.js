@@ -69,5 +69,10 @@ Page({
       
     })
   },
-
+// 跳转到加盟商须知
+  jjxx(){
+    wx.navigateTo({
+      url: '/pages/jiamenaq/jiamenaq',
+    })
+  }
 })

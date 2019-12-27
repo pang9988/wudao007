@@ -77,6 +77,7 @@ Page({
       url: '/pages/anquan/anquan',
     })
   },
+  // 教练须知跳转
   jjxx(){
     wx.navigateTo({
       url: '/pages/jxaq/jxaq',

@@ -1,0 +1,16 @@
+<view class='view-page'>
+    <view style="background:#333365;width:100%;height:200rpx;"></view>       
+  <view class='page-content'>
+     <view class="wan">
+     <image class="aqfanhui" src="./../../images/yt/fh.png" bindtap="jxfh"></image>
+     <view class="aqshu">加盟商须知</view>
+       <image mode="widthFix" src="./../../images/hometu/1.jpg"></image>
+       <image mode="widthFix" src="./../../images/hometu/2.jpg"></image>
+       <image mode="widthFix" src="./../../images/hometu/3.jpg"></image>
+       <image mode="widthFix" src="./../../images/hometu/4.jpg"></image>
+       <image mode="widthFix" src="./../../images/hometu/1.jpg"></image>
+     </view>
+  </view>
+</view>
+
+ 

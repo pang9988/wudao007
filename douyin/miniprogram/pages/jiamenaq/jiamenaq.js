@@ -1,11 +1,11 @@
-// pages/navpersonal/navpersonal.js
+// pages/jxaq/jxaq.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+
   },
 
   /**
@@ -63,19 +63,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  myfs(){
+  jxfh() {
     wx.navigateBack({
-      
+      delta: 1
     })
-  },
-  // 开始挂牌
-  kaishiguanp(){
-    console.log("开始挂牌了")
-  },
-  //教练须知
-  jjxx() {
-    wx.navigateTo({
-      url: '/pages/jxaq/jxaq',
-    })
-  }, 
+  }
 })

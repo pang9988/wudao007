@@ -13,7 +13,7 @@
             </view>
            
           </view>
-          <view class="myac" bindtap="jjxx">教练须知</view>
+          <view class="myac" bindtap="aq">用户须知</view>
         </view>
       </view>
      

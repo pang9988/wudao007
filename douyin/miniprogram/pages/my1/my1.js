@@ -69,28 +69,28 @@ Page({
       url: '/pages/anquan/anquan',
     })
   },
-  // 申请成为舞蹈教练
+  // 教练登录
+  shenqi1() {
+    wx.navigateTo({
+      url: '/pages/navpersonal/navpersonal',
+    })
+  },
+  // 教练通道
   shenqi(){
     wx.navigateTo({
       url: '/pages/sq/sq',
     })
   },
-  // 加盟商注册
-  jiameng(){
-    wx.navigateTo({
-      url: '/pages/zc/zc',
-    })
-  },
-  // 教练登录
-  shenqi1(){
-    wx.navigateTo({
-      url: '/pages/navpersonal/navpersonal',
-    })
-  },
-  // 加盟商注册
+  // 加盟商登录
   jiameng1() {
     wx.navigateTo({
       url: '/pages/navalliance/navalliance',
+    })
+  },
+  // 加盟商通道
+  jiameng() {
+    wx.navigateTo({
+      url: '/pages/zc/zc',
     })
   },
 })
