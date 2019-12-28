@@ -27,9 +27,9 @@
     <view style="border:1px solid #00f; width:85%;margin:0 auto 60rpx;"></view>
     <!-- 通道 -->
     <view class="mykejin">
-    <view class="mybb" catchtap="shenqi">教练通道</view>
+    <view class="mybb" catchtap="shenqi">教练注册</view>
       <view class="mybb mybb1" catchtap="shenqi1"> 教练登录</view>
-      <view class="mybb " catchtap="jiameng">加盟商通道</view>
+      <view class="mybb " catchtap="jiameng">加盟商注册</view>
       <view class="mybb mybb1" catchtap="jiameng1">加盟商登录</view>
     </view>
     <view class="myba">

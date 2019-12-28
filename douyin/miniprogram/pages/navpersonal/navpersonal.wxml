@@ -52,11 +52,12 @@
         <view class="nleft">血型:<text></text></view>
      </view>
      </view>
+     <view style="margin-top:24rpx;"></view>
     <!-- 业余爱好 -->
     <view class="homecontent">
      <view class="homeaihao">
      <!-- text中写入插值语法{{}} -->
-       <view style="margin-top:30rpx;">目前居住城市:<text>广东省广州市番禺区七号小镇</text> </view>
+       
       <view>
         业余爱好:<text>玩手机,打波,</text>
       </view>
@@ -66,6 +67,7 @@
       <view>
         舞伴要求:<text>18岁-22岁女</text>
       </view>
+      <view style="margin-top:30rpx;">目前居住城市:<text>广东省广州市番禺区七号小镇</text> </view>
     </view>
     </view>
     <!-- 图片 -->

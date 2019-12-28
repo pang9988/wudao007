@@ -11,12 +11,10 @@
             <view class="myab">
               <open-data type="userAvatarUrl"></open-data>
             </view>
-           
           </view>
           <view class="myac" bindtap="jjxx">教练须知</view>
         </view>
       </view>
-     
       <view style="margin-top:200rpx;"></view>
     </view>
       <view style="margin-right:73rpx;">
@@ -57,5 +55,6 @@
     <view class="zcbottom" catchtap="jiaoliazc">注册 </view>
   </view>
     </view>
+    <view style="height:50rpx;"></view>
   </view>
 </view>

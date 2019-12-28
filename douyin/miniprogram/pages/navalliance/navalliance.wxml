@@ -2,7 +2,6 @@
   <view class='page-content'> 
     <view class="myaa">
       <view style="background:#333365;width:100%;height:200rpx;">
-        <!-- <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image> -->
         <image class="myaaa" src="./../../images/yt/44.png"></image>
       </view>
       <view class="mmm">
@@ -11,12 +10,10 @@
             <view class="myab">
               <open-data type="userAvatarUrl"></open-data>
             </view>
-           
           </view>
           <view class="myac" bindtap="jjxx">加盟商须知</view>
         </view>
       </view>
-     
       <view style="margin-top:200rpx;"></view>
     </view>
       <view style="margin-right:73rpx;">
@@ -30,7 +27,7 @@
       <block>
       <view class="homezlconter">
         <view>
-          加盟商编码:
+          加盟商电话号码:
         </view>
         <view>
           加盟等级:
@@ -42,13 +39,13 @@
           教练推广应得收益:
         </view>
         <view>
-          当前教练推介收益:
+          平台利润分配:
         </view>
         <view>
-          当月平台利润分配:
+          当前总收益:
         </view>
         <view>
-          当有总收益:
+          可获得收益:
         </view>
        
       </view>
@@ -62,16 +59,16 @@
         <view></view>
         <!-- 教练推广应得收益 -->
         <view></view>
-        <!-- 当前教练推介收益 -->
-        <view></view>
         <!--当月平台利润分配  -->
         <view></view>
-        <!-- 当有总收益 -->
+        <!-- 当前总收益 -->
+        <view></view>
+        <!-- 可获得收益 -->
         <view></view>
       </view>
        </block>
     </view>
-    <!-- 注册 -->
+ <!--  -->
     <view style="width:100%;margin:50rpx 0 0 0;">
       <navigator style="width: 300rpx;height: 80rpx;margin: 0 auto;text-align: center;line-height: 80rpx;background: #fff;color: #000;" open-type="switchTab" url="../home1/home1">返回首页</navigator>
     </view>
