@@ -33,7 +33,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/13.jpg",
+      img: "./../../images/hometu/7.jpg",
       site: "廉江3",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -49,7 +49,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/1.jpg",
+      img: "./../../images/hometu/3.jpg",
       site: "廉江11",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -81,7 +81,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/1.jpg",
+      img: "./../../images/hometu/3.jpg",
       site: "廉江11",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -89,7 +89,7 @@ Page({
       textz2: "69"
     },
     {
-      img: "./../../images/hometu/13.jpg",
+      img: "./../../images/hometu/7.jpg",
       site: "廉江12",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -99,7 +99,7 @@ Page({
 
     ],
     mmp: [{
-      img: "./../../images/hometu/13.jpg",
+      img: "./../../images/hometu/7.jpg",
       site: "廉江5",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -107,7 +107,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/1.jpg",
+      img: "./../../images/hometu/3.jpg",
       site: "廉江6",
       imgtx: "./../../images/hometu/44.png",
       textwz: "那良,香港",
@@ -131,7 +131,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/13.jpg",
+      img: "./../../images/hometu/7.jpg",
       site: "廉江9",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -156,7 +156,7 @@ Page({
       textz2: "89"
     },
     {
-      img: "./../../images/hometu/1.jpg",
+      img: "./../../images/hometu/3.jpg",
       site: "廉江7",
       imgtx: "./../../images/hometu/44.png",
       textwz: "深圳,香港",
@@ -219,11 +219,11 @@ Page({
     //   this.data.cao = [{
     //       img: "./../../images/hometu/11.jpg",
     //       site: "廉江",
-    //       imgtx: "./../../images/hometu/13.jpg",
+    //       imgtx: "./../../images/hometu/7.jpg",
     //       textwz: "你不离我不弃"
     //     },
     //     {
-    //       img: "./../../images/hometu/1.jpg",
+    //       img: "./../../images/hometu/3.jpg",
     //       site: "廉江1",
     //       imgtx: "./../../images/hometu/2.jpg",
     //       textwz: "界面信息元素没有做到对"
@@ -243,11 +243,11 @@ Page({
     //     {
     //       img: "./../../images/hometu/4.jpg",
     //       site: "廉江4",
-    //       imgtx: "./../../images/hometu/1.jpg",
+    //       imgtx: "./../../images/hometu/3.jpg",
     //       textwz: "界面信息元素没有做到对齐，365元作为重要信息没有很好突出"
     //     },
     //     {
-    //       img: "./../../images/hometu/1.jpg",
+    //       img: "./../../images/hometu/3.jpg",
     //       site: "廉江11",
     //       imgtx: "./../../images/hometu/3.jpg",
     //       textwz: "界面信息元素没有做到对齐，365元作为重要信息没有很好突出"
@@ -267,11 +267,11 @@ Page({
     //     {
     //       img: "./../../images/hometu/4.jpg",
     //       site: "廉江4",
-    //       imgtx: "./../../images/hometu/1.jpg",
+    //       imgtx: "./../../images/hometu/3.jpg",
     //       textwz: "界面信息元素没有做到对齐，365元作为重要信息没有很好突出"
     //     },
     //     {
-    //       img: "./../../images/hometu/1.jpg",
+    //       img: "./../../images/hometu/3.jpg",
     //       site: "廉江11",
     //       imgtx: "./../../images/hometu/3.jpg",
     //       textwz: "界面信息元素没有做到对齐，365元作为重要信息没有很好突出"

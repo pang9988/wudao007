@@ -24,11 +24,17 @@
               <open-data type="userNickName"></open-data>
             </view>
       </view>
+    
    <!-- 今日我开工 -->
    <view style="height:20rpx;"></view>
+     <!-- 奖励金币 -->
+      <view class="navpeitan">
+       <view>推广金币:<text></text> </view>
+       <view>舞厅等级:<text></text> </view>
+      </view>
     <view style="width:90%; display:flex;margin-left:73rpx;">
-      <view style="width:50%;" >今日我开工</view>
-      <view><image style="width:200rpx;height:40rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
+      <view style="width:50%;" ><text style="font-size:40rpx;">今日我开工</text> </view>
+      <view><image style="width:300rpx;height:50rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
     </view>
      <!-- 平台评级个人资料 -->
      <view class="navpeitan">
@@ -59,15 +65,15 @@
      <!-- text中写入插值语法{{}} -->
        
       <view>
-        业余爱好:<text>玩手机,打波,</text>
+        业余爱好:<text></text>
       </view>
       <view>
-        工作地区:<text>广州,深圳,东莞</text>
+        工作地区:<text></text>
       </view>
       <view>
-        舞伴要求:<text>18岁-22岁女</text>
+        舞伴要求:<text></text>
       </view>
-      <view style="margin-top:30rpx;">目前居住城市:<text>广东省广州市番禺区七号小镇</text> </view>
+      <view style="margin-top:30rpx;">目前居住城市:<text></text> </view>
     </view>
     </view>
     <!-- 图片 -->

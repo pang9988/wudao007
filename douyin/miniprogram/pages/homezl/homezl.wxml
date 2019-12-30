@@ -29,28 +29,28 @@
       <!-- 性别年龄 -->
       <view class="homexing">
         <view>
-          性别:<text>男</text>
+          性别:<text></text>
         </view>
         <view>
-          年龄范围:<text>22~99</text>
+          年龄范围:<text></text>
         </view>
       </view>
       <!-- 属相血型 -->
       <view class="homexing">
         <view>
-          属相:<text>ru</text>
+          属相:<text></text>
         </view>
         <view>
-          血型:<text>0</text>
+          血型:<text></text>
         </view>
       </view>
       <!-- 星座 目前居住城市 -->
       <view class="homexing">
         <view>
-          星座:<text>双子座</text>
+          星座:<text></text>
         </view>
         <view>
-          目前居住城市:<text>廉江</text>
+          目前居住城市:<text></text>
         </view>
       </view>
 
@@ -61,13 +61,13 @@
     <view class="homecontent">
      <view class="homeaihao">
       <view>
-        业余爱好:<text>玩手机,打波,</text>
+        业余爱好:<text></text>
       </view>
       <view>
-        工作地区:<text>广州,深圳,东莞</text>
+        工作地区:<text></text>
       </view>
       <view>
-        舞伴要求:<text>仅限18岁-22岁女</text>
+        舞伴要求:<text></text>
       </view>
     </view>
     </view>

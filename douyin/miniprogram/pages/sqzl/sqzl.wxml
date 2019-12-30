@@ -29,13 +29,21 @@
       <view class="section" style="margin-left:73rpx;">
         <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
           <view class="picker">
-            评级：{{array[index]}}
+            认证：{{array[index]}}
           </view>
         </picker>
       </view>
       <!-- 个人手机号码 -->
       <van-cell-group>
         <van-field value="{{ username }}" clearable label="个人手机号码:" placeholder="请输入手机号码" bind:click-icon="onClickIcon" maxlength="11" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
+        <van-field
+    value="{{ shenfen }}"
+    clearable
+    label="身份证号:"
+    placeholder="请输入身份证号"
+    maxlength='18'
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
+  />
         <van-field value="{{ username }}" clearable label="推介方电话:" placeholder="请输入推介方电话" bind:click-icon="onClickIcon" maxlength="11" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
       </van-cell-group>
     </view>

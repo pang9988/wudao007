@@ -34,7 +34,14 @@
     placeholder="请输入合作商名称"
     custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
   />
-
+<van-field
+    value="{{ shenfen }}"
+    clearable
+    label="合作等级:"
+    placeholder="请输入合作等级"
+    maxlength='18'
+    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
+  />
 <van-field
     value="{{ phone }}"
     clearable

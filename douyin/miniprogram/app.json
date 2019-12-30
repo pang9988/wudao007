@@ -48,7 +48,7 @@
       },
       {
         "pagePath": "pages/copper1/copper1",
-        "text": "铜牌",
+        "text": "普通",
         "iconPath": "/images/pai1.png",
         "selectedIconPath": "/images/tong2.png"
       },

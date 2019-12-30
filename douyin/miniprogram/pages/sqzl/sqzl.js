@@ -235,6 +235,12 @@ Page({
   },
   uploadSuccess(e) {
     console.log('upload success', e.detail)
-  }
+  },
+  // 教练须知跳转
+  jjxx() {
+    wx.navigateTo({
+      url: '/pages/jxaq/jxaq',
+    })
+  },
   
 })
