@@ -6,7 +6,13 @@ Page({
    */
   data: {
     // 上传图片
-    files: [
+    files1: [
+      // {url: '',}, {loading: true}, {error: true}
+      ],
+    files2: [
+      // {url: '',}, {loading: true}, {error: true}
+      ],
+    files3: [
       // {url: '',}, {loading: true}, {error: true}
       ],
      // 目前居住城市假数据,

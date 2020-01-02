@@ -153,7 +153,7 @@
         <view class="page__bd">
           <mp-cells>
             <mp-cell>
-              <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files}}" max-count="6" title="图片上传" ></mp-uploader>
+              <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files1}}" max-count="6" title="图片上传" ></mp-uploader>
             </mp-cell>
           </mp-cells>
         </view>
@@ -169,7 +169,23 @@
         <view class="page__bd">
           <mp-cells>
             <mp-cell>
-              <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files}}" max-count="1"></mp-uploader>
+              <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files2}}" max-count="1"></mp-uploader>
+            </mp-cell>
+          </mp-cells>
+        </view>
+      </view>
+    </view>
+    <!-- 认证老师图片上传 -->
+    <view>
+      <view style='margin-left:73rpx;'>
+         认证老师:<text>波多野衣</text>
+      </view>
+      <view style="display:flex;justify-content:center;">
+        <!-- 组件 -->
+        <view class="page__bd">
+          <mp-cells>
+            <mp-cell>
+              <mp-uploader bindfail="uploadError" bindsuccess="uploadSuccess" select="{{selectFile}}" upload="{{uplaodFile}}" files="{{files3}}" max-count="1"></mp-uploader>
             </mp-cell>
           </mp-cells>
         </view>

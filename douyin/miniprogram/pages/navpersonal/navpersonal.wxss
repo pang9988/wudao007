@@ -45,11 +45,16 @@
 margin-bottom: 14rpx;
 border-radius: 30rpx;
 overflow: hidden;
-
 }
 .gou{
   margin-left:73rpx;
   margin-right:73rpx;
+}
+.jl{
+    width:30%;
+  margin:0 auto;
+  border-radius: 30rpx;
+overflow: hidden;
 }
 /*  */
 .van-uploader__preview{

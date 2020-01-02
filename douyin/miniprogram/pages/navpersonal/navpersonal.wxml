@@ -31,15 +31,16 @@
       <view class="navpeitan">
        <view>金币:<text></text> </view>
        <view>等级:<text></text> </view>
+        <view>认证:<text></text> </view>
       </view>
     <view style="width:90%; display:flex;margin-left:73rpx;">
-      <view style="width:50%;" ><text style="font-size:40rpx;">今日我开工</text> </view>
-      <view><image style="width:300rpx;height:50rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
+      <view style="width:50%;" ><text style="font-size:36rpx;">今日我开工</text> </view>
+      <view><image style="width:250rpx;height:37rpx;" mode="widthFix" catchtap="kaishiguanp" src="./../../images/yt/gp.png"></image> </view>
     </view>
      <!-- 平台评级个人资料 -->
      <view class="navpeitan">
      <!-- text中写入插值语法{{}} -->
-       <view>认证:<text></text> </view>
+      
        <view>个人手机号码:<text></text> </view>
        <view>推介方电话:<text></text> </view>
      </view>
@@ -86,6 +87,7 @@
     </view>
     <!-- 图片 -->
        <!-- 图片 -->
+       <view style="margin:0 0 30rpx 73rpx;">个人图片</view>
     <view class="gou">
     <view class="hometu">
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
@@ -95,6 +97,11 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
+    </view>
+       <!-- 图片 -->
+       <view style="margin:0 0 30rpx 73rpx;">认证老师:<text></text> </view>
+    <view style="width:100%;">
+      <view class="jl"><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
      <view style="height:50rpx;"></view>
     <!-- 会员时间 -->
