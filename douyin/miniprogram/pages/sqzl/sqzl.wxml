@@ -112,7 +112,7 @@
            <view class="section">
           <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
             <view class="picker">
-              年龄范围:{{array5[index5]}}
+              年龄:{{array5[index5]}}
             </view>
           </picker>
         </view>

@@ -67,7 +67,7 @@
      <view class="homeaihao">
      <!-- text中写入插值语法{{}} -->
              <view>
-        年龄范围:<text></text>
+        年龄:<text></text>
       </view>
       <view>
         身份证号:<text></text>
