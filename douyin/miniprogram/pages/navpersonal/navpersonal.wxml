@@ -47,12 +47,13 @@
      <view class="navshenconter">
        <view class="navleft">
      <!-- text中写入插值语法{{}} -->
+        <!-- <view class="nleft">等级:<text></text></view> -->
         <view class="nleft">身高:<text></text></view>
         <view class="nleft">性别:<text></text></view>
         <view class="nleft">学历:<text></text></view>
         <view class="nleft">证书:<text></text></view>
-     </view>
-       <view class="navleft">
+     <!-- </view>
+       <view class="navleft"> -->
      <!-- text中写入插值语法{{}} -->
         <view class="nleft">星座:<text></text></view>
         <view class="nleft">属相:<text></text></view>

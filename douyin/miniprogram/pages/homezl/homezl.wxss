@@ -1,18 +1,21 @@
 /* 资料 */
-.homezltop {
+/* .homezltop {
   width: 90%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 .homexing view {
   width: 40%;
   margin-bottom: 30rpx;
 }
-.homezltop .homexing {
+/* .homezltop .homexing {
   width: 100%;
   display: flex;
   justify-content: center;
+} */
+.homezltop .homexing {
+ margin-left:73rpx;
 }
 /* 业余爱好 */
 .homecontent {

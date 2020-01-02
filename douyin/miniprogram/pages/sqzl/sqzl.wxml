@@ -51,6 +51,13 @@
       <view class="homexing">
         <!-- 身高 -->
         <view class="section">
+          <picker bindchange="bindPickerChange0" value="{{index0}}" range="{{array0}}">
+            <view class="picker">
+              等级:{{array0[index0]}}
+            </view>
+          </picker>
+        </view>
+        <view class="section">
           <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
             <view class="picker">
               身高:{{array1[index1]}}

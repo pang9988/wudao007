@@ -66,9 +66,10 @@ margin-bottom:30rpx;
 
 /*  */
 .navshenconter{
-  width:90%;
+  /* width:90%;
   display:flex;
   justify-content: space-around;
+  margin-left:73rpx; */
   margin-left:73rpx;
 }
 .navleft{

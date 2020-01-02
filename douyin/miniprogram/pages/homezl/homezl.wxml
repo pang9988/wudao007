@@ -28,42 +28,47 @@
     <view class="homezltop">
     <!-- 身高平台评级 -->
      <view class="homexing">
+      <view>
+          平台认证:<text></text>
+        </view>
+         <view>
+          年龄范围:<text></text>
+        </view>
+         <view>
+          等级:<text></text>
+        </view>
         <view>
           身高:<text></text>
         </view>
-        <view>
-          平台评级:<text></text>
-        </view>
-      </view>
+       
+      <!-- </view> -->
       <!-- 性别年龄 -->
-      <view class="homexing">
+      <!-- <view class="homexing"> -->
         <view>
           性别:<text></text>
         </view>
-        <view>
-          年龄范围:<text></text>
-        </view>
-      </view>
-      <view class="homexing">
+       
+      <!-- </view> -->
+      <!-- <view class="homexing"> -->
         <view>
           学历:<text></text>
         </view>
         <view>
           舞种:<text></text>
         </view>
-      </view>
+      <!-- </view> -->
      
       <!-- 属相血型 -->
-      <view class="homexing">
+      <!-- <view class="homexing"> -->
         <view>
           属相:<text></text>
         </view>
         <view>
           血型:<text></text>
         </view>
-      </view>
+      <!-- </view> -->
       <!-- 星座 目前居住城市 -->
-      <view class="homexing">
+      <!-- <view class="homexing"> -->
         <view>
           星座:<text></text>
         </view>
