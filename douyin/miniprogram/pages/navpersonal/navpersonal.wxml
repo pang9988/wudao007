@@ -29,8 +29,8 @@
    <view style="height:20rpx;"></view>
      <!-- 奖励金币 -->
       <view class="navpeitan">
-       <view>推广金币:<text></text> </view>
-       <view>舞厅等级:<text></text> </view>
+       <view>金币:<text></text> </view>
+       <view>等级:<text></text> </view>
       </view>
     <view style="width:90%; display:flex;margin-left:73rpx;">
       <view style="width:50%;" ><text style="font-size:40rpx;">今日我开工</text> </view>
@@ -39,7 +39,7 @@
      <!-- 平台评级个人资料 -->
      <view class="navpeitan">
      <!-- text中写入插值语法{{}} -->
-       <view>平台评级:<text></text> </view>
+       <view>认证:<text></text> </view>
        <view>个人手机号码:<text></text> </view>
        <view>推介方电话:<text></text> </view>
      </view>
@@ -49,13 +49,15 @@
      <!-- text中写入插值语法{{}} -->
         <view class="nleft">身高:<text></text></view>
         <view class="nleft">性别:<text></text></view>
-        <view class="nleft">年龄范围:<text></text></view>
+        <view class="nleft">学历:<text></text></view>
+        <view class="nleft">证书:<text></text></view>
      </view>
        <view class="navleft">
      <!-- text中写入插值语法{{}} -->
         <view class="nleft">星座:<text></text></view>
         <view class="nleft">属相:<text></text></view>
         <view class="nleft">血型:<text></text></view>
+        <view class="nleft">舞种:<text></text></view>
      </view>
      </view>
      <view style="margin-top:24rpx;"></view>
@@ -63,7 +65,12 @@
     <view class="homecontent">
      <view class="homeaihao">
      <!-- text中写入插值语法{{}} -->
-       
+             <view>
+        年龄范围:<text></text>
+      </view>
+      <view>
+        身份证号:<text></text>
+      </view>
       <view>
         业余爱好:<text></text>
       </view>
@@ -87,6 +94,13 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
+    </view>
+     <view style="height:50rpx;"></view>
+    <!-- 会员时间 -->
+    <!--  -->
+    <view style="margin-left:73rpx;">
+      <view>会员时间:<text></text> </view>
+      <view style="width:160rpx;height:50rpx;background:#ff0;color:#000;text-align:center;line-height:50rpx;border-radius:10rpx;margin-top:20rpx;">年费支付<text></text> </view>
     </view>
     <view style="height:90rpx;"></view>
   </view>

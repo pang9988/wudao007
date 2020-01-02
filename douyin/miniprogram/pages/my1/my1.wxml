@@ -13,7 +13,7 @@
             </view>
            
           </view>
-          <view class="myac" bindtap="aq">用户须知</view>
+          <view class="myac" bindtap="aq">客户安全须知</view>
         </view>
       </view>
      

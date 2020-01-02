@@ -22,7 +22,7 @@
               <view class="xiam">认证:
                 <text>{{item.textwz1}}</text>
               </view>
-              <view class="xiam">工作等级:
+              <view class="xiam">等级:
                 <text>{{item.textz2}}</text>
               </view>
             </view>
@@ -51,7 +51,7 @@
               <view class="xiam">认证:
                 <text>{{item.textwz1}}</text>
               </view>
-              <view class="xiam">工作等级:
+              <view class="xiam">等级:
                 <text>{{item.textz2}}</text>
               </view>
             </view>

@@ -41,7 +41,7 @@
   width:300rpx;
   height:90rpx;
   border:1px solid #fff;
-  background:red;
+  background:#660102;
   color:#fff;
   line-height:90rpx;
   text-align:center;
@@ -82,7 +82,7 @@
   margin-bottom:33rpx;
 }
 .mybb1{
-  background:orange !important;
+  background:#9e582f !important;
 }
 
 /* .mybb+.mybb{

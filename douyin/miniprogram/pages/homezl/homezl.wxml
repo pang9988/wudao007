@@ -13,7 +13,7 @@
             </view>
            
           </view>
-          <view class="myac" bindtap="jjxx">教练须知</view>
+          <view class="myac" bindtap="jjxx">用户须知</view>
         </view>
       </view>
      
@@ -26,6 +26,15 @@
       </view>
     <!-- 个人资料 -->
     <view class="homezltop">
+    <!-- 身高平台评级 -->
+     <view class="homexing">
+        <view>
+          身高:<text></text>
+        </view>
+        <view>
+          平台评级:<text></text>
+        </view>
+      </view>
       <!-- 性别年龄 -->
       <view class="homexing">
         <view>
@@ -35,6 +44,15 @@
           年龄范围:<text></text>
         </view>
       </view>
+      <view class="homexing">
+        <view>
+          学历:<text></text>
+        </view>
+        <view>
+          舞种:<text></text>
+        </view>
+      </view>
+     
       <!-- 属相血型 -->
       <view class="homexing">
         <view>
@@ -50,8 +68,9 @@
           星座:<text></text>
         </view>
         <view>
-          目前居住城市:<text></text>
+          证书:<text></text>
         </view>
+       
       </view>
 
 
@@ -69,6 +88,9 @@
       <view>
         舞伴要求:<text></text>
       </view>
+        <view>
+          目前居住城市:<text> </text>
+        </view>
     </view>
     </view>
     <!-- 图片 -->
@@ -84,7 +106,7 @@
     </view>
     <!-- 我要购买 -->
     <view style="margin:50rpx 0 50rpx;">
-      <view style="border:1px solid #fff;width:300rpx;height:50rpx;line-height:50rpx;text-align:center;margin:0 auto;" catchtap="homezlgoumai">我要购买</view>
+      <view style="border:1px solid #fff;width:300rpx;height:80rpx;line-height:80rpx;text-align:center;margin:0 auto;background:#ff0;color:#000;" catchtap="homezlgoumai">我要购买</view>
     </view>
   </view>
 </view>

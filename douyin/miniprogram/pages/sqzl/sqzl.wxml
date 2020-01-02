@@ -29,7 +29,7 @@
       <view class="section" style="margin-left:73rpx;">
         <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
           <view class="picker">
-            认证：{{array[index]}}
+            平台认证：{{array[index]}}
           </view>
         </picker>
       </view>
@@ -73,13 +73,11 @@
             </view>
           </picker>
         </view>
-        <!-- 星座 -->
-      </view>
-      <view class="homexing1">
+        <!-- 学历 -->
         <view class="section">
-          <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
+          <picker bindchange="bindPickerChange7" value="{{index7}}" range="{{array7}}">
             <view class="picker">
-              年龄范围:{{array5[index5]}}
+              学历:{{array7[index7]}}
             </view>
           </picker>
         </view>
@@ -97,6 +95,25 @@
             </view>
           </picker>
         </view>
+        <view class="section">
+          <picker bindchange="bindPickerChange9" value="{{index9}}" range="{{array9}}">
+            <view class="picker">
+              舞种:{{array9[index9]}}
+            </view>
+          </picker>
+        </view>
+           <view class="section">
+          <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array5}}">
+            <view class="picker">
+              年龄范围:{{array5[index5]}}
+            </view>
+          </picker>
+        </view>
+        <!-- 星座 -->
+      </view>
+      <view class="homexing1">
+        
+        
       </view>
     </view>
     <!-- /目前居住城市 -->
@@ -114,10 +131,11 @@
     <!--  <!-- 业余爱好 -->
     <view style="margin-bottom:20rpx;">
       <van-cell-group>
-        <van-field value="{{ username }}" clearable label="业余爱好:" placeholder="请输入业余爱好" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
+        <van-field value="{{ username1 }}" clearable label="业余爱好:" placeholder="请输入业余爱好" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
 
-        <van-field value="{{ username }}" clearable label="工作地区:" placeholder="请输入工作地区" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
-        <van-field value="{{ username }}" clearable label="舞伴要求:" placeholder="请输入舞伴要求" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
+        <van-field value="{{ username2 }}" clearable label="工作地区:" placeholder="请输入工作地区" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
+        <van-field value="{{ username3 }}" clearable label="舞伴要求:" placeholder="请输入舞伴要求" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
+        <van-field value="{{ username4 }}" clearable label="证书:" placeholder="请输入证书" bind:click-icon="onClickIcon" custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff" />
       </van-cell-group>
 
     </view>
