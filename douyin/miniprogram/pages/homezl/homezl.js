@@ -74,5 +74,11 @@ Page({
     wx.navigateTo({
       url: '/pages/navpayment/navpayment',
     })
+  },
+  // 用户须知
+  jjxx(){
+    wx.navigateTo({
+      url: '/pages/anquan/anquan',
+    })
   }
 })

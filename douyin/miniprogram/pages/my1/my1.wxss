@@ -2,12 +2,12 @@
    position:relative;
 }
 .myaaa{
-  width:300rpx;
-  height:100rpx;
-  border-radius:50%;
-  position:relative;
-  top:33%;
-  left:33%;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  position: relative;
+  top: -15%;
+  left: 30%;
 }
 .mmm{
   margin:0 auto 0;

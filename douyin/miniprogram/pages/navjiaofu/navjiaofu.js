@@ -1,12 +1,11 @@
-// pages/zc/zc.js
+// pages/navpayment/navpayment.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isSend:false,
-    secend:59
+
   },
 
   /**
@@ -64,16 +63,12 @@ Page({
   onShareAppMessage: function () {
 
   },
-  // 返回上一级
-  myfs(){
+  // 返回上一层
+  myfs() {
     wx.navigateBack({
-      
+
     })
   },
-// 跳转到加盟商须知
-  jjxx(){
-    wx.navigateTo({
-      url: '/pages/jiamenaq/jiamenaq',
-    })
-  }
+
+
 })

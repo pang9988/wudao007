@@ -11,20 +11,9 @@
   color:#fff;
   position:absolute;
   top:43%;
-  left:34%;
+  left:43%;
 }
 /* 内容 */
-.navpayconent{
-  width:99%;
-  display:flex;
-  justify-content: space-between;
- 
-}
-.navconents1{
-  width:25%;
-  background:#000;
-  font-size:20rpx;
-}
 .navconents1 .aaleft{
   margin-top:20rpx;
   margin-left:12rpx;

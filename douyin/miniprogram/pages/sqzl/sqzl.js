@@ -5,6 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
+    isSend: false,
+    secend: 59,
     // 上传图片
     files1: [
       // {url: '',}, {loading: true}, {error: true}

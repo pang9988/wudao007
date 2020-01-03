@@ -45,11 +45,11 @@ page {
 
 .myaaa {
   width: 300rpx;
-  height: 100rpx;
+  height: 300rpx;
   border-radius: 50%;
   position: relative;
-  top: 33%;
-  left: 33%;
+  top: -15%;
+  left: 30%;
 }
 
 .myfanhui {

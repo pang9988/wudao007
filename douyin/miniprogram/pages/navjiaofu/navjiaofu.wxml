@@ -1,0 +1,24 @@
+<view class='view-page'>
+  <view class='page-content'>
+    <view class="myaa">
+      <view style="background:#333365;width:100%;height:200rpx;">
+        <image class="fanhui" src="./../../images/yt/fh.png" bindtap="myfs"></image>
+         <view class="aqshu">教练支付</view>
+        <!-- <image class="myaaa" src="./../../images/yt/44.png"></image> -->
+      </view>
+    </view>
+    <!-- 内容 -->
+    <view style=" margin:30rpx 50rpx 0;">
+    <view ><image style="width:100%" mode="scaleToFill" src="./../../images/hometu/5.jpg"></image> </view>
+    <!-- 金额 -->
+   <view class="navgeiqain">
+     <view style="margin-top:30rpx;color:#000;">金额</view>
+      <view style="margin-top:40rpx; color:#000;"><text  style="font-size:50rpx;">¥</text><text style="font-size:40rpx;margin-left:50rpx;">200.00</text> </view>
+      <view style="border:1px solid #ddd;margin:30rpx 0 30rpx;"></view>
+      <button class="payment-button" style="background:#07c05f;color:#fff;"catchtap="navpaymentfk" >付款</button>
+   </view>
+   </view>
+  </view>
+</view>
+
+

@@ -82,6 +82,9 @@
       <view>
         舞伴要求:<text></text>
       </view>
+      <view>
+        认证老师:<text></text>
+      </view>
       <view style="margin-top:30rpx;">目前居住城市:<text></text> </view>
     </view>
     </view>
@@ -98,17 +101,13 @@
       <view class="homet" ><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
     </view>
     </view>
-       <!-- 图片 -->
-       <view style="margin:0 0 30rpx 73rpx;">认证老师:<text></text> </view>
-    <view style="width:100%;">
-      <view class="jl"><image style="width:100%" mode="widthFix" src="./../../images/hometu/14.jpg"></image> </view>
-    </view>
+  
      <view style="height:50rpx;"></view>
     <!-- 会员时间 -->
     <!--  -->
     <view style="margin-left:73rpx;">
       <view>会员时间:<text></text> </view>
-      <view style="width:160rpx;height:50rpx;background:#ff0;color:#000;text-align:center;line-height:50rpx;border-radius:10rpx;margin-top:20rpx;">年费支付<text></text> </view>
+      <view style="width:160rpx;height:50rpx;background:#ff0;color:#000;text-align:center;line-height:50rpx;border-radius:10rpx;margin-top:20rpx;"catchtap="navnifeizifu">年费支付<text></text> </view>
     </view>
     <view style="height:90rpx;"></view>
   </view>

@@ -25,14 +25,6 @@
     <!-- 登录密码 -->
     <view>
 <van-cell-group>
-  <van-field
-    value="{{ username }}"
-    clearable
-    label="登录密码"
-    placeholder="请输入登录密码"
-    custom-style="background:#131e36;width:90%;margin:0 auto;color:#fff"
-  />
-
 <van-field
     value="{{ username }}"
     clearable

@@ -78,4 +78,10 @@ Page({
       url: '/pages/jxaq/jxaq',
     })
   }, 
+  //年费支付
+  navnifeizifu(){
+    wx.navigateTo({
+      url: '/pages/navjiaofu/navjiaofu',
+    })
+  }
 })

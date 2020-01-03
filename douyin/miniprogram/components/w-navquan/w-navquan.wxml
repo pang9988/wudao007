@@ -5,6 +5,7 @@
       <!--  内容-->
       <view class="homeab">
       <!-- 首页由两个for循环左右生成的 -->
+      <!-- 左边 -->
         <block>
           <view class="homeleft" wx:for="{{cao}}" wx:key="incex">
             <view class="weizi" catchtap="leftdetails" data-sifttapid="{{item.id}}">
@@ -32,7 +33,7 @@
 
 
 
-
+<!-- 右边 -->
       <view class="homeab">
         <block>
           <view class="homeleft" wx:for="{{mmp}}" wx:key="index">
