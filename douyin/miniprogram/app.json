@@ -29,6 +29,7 @@
     "navigationStyle": "custom"
   },
   "tabBar": {
+    "selectedColor": "#e2c52a",
     "list": [
       {
         "pagePath": "pages/home1/home1",
