@@ -1,25 +1,25 @@
 .myaa{
    position:relative;
 }
-.myaaa{
-  width: 300rpx;
-  height: 300rpx;
+/* .myaaa{
+  width: 270rpx;
+  height: 270rpx;
   border-radius: 50%;
   position: relative;
-  top: -15%;
-  left: 30%;
-}
-.mmm{
+  top: -10%;
+  left: 32%;
+} */
+/* .mmm{
   margin:0 auto 0;
-}
-.myab{
+} */
+/* .myab{
   width:200rpx;
   height:200rpx;
   border-radius:50%;
   overflow:hidden;
   border:5px solid #091018;
-}
-.mmp{
+} */
+/* .mmp{
   width:100%;
   display:flex;
   justify-content: space-around;
@@ -27,17 +27,17 @@
   position:absolute;
   top:79%;
   left:0%;
-}
-.qisiliao{
+} */
+/* .qisiliao{
   display:flex;
   align-items:center;
   flex-direction:column;
-}
-.mymz{
+} */
+/* .mymz{
   color:#fff;
   margin-top:20rpx;
-}
-.myac{
+} */
+/* .myac{
   width:300rpx;
   height:90rpx;
   border:1px solid #fff;
@@ -46,7 +46,7 @@
   line-height:90rpx;
   text-align:center;
 
-} 
+}  */
 .myshan{
   border:1rpx solid #000;
   width:100%;

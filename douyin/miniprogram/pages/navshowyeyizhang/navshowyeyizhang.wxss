@@ -1,0 +1,23 @@
+.page-content{
+  width:100%;
+}
+.wan image{
+  width:100%
+}
+.aqfanhui{
+  width:50rpx !important;
+  height:50rpx;
+  position:absolute;
+  top:6%;
+  left:4%;
+}
+.aqshu{
+  font-size:25rpx;
+  color:#fff;
+  position:absolute;
+  top:7%;
+  left:42%;
+}
+.aqshu image{
+ vertical-align: text-bottom !important;
+}

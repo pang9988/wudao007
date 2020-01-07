@@ -18,7 +18,8 @@
     "pages/navpersonal/navpersonal",
     "pages/jiamenaq/jiamenaq",
     "components/w-navquan/w-navquan",
-    "pages/navjiaofu/navjiaofu"
+    "pages/navjiaofu/navjiaofu",
+    "pages/navshowyeyizhang/navshowyeyizhang"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -31,25 +32,25 @@
     "list": [
       {
         "pagePath": "pages/home1/home1",
-        "text": "首页",
+        "text": "推荐教练",
         "iconPath": "/images/home1.png",
         "selectedIconPath": "/images/home2.png"
       },
       {
         "pagePath": "pages/gold1/gold1",
-        "text": "金牌",
+        "text": "金牌教练",
         "iconPath": "/images/pai1.png",
         "selectedIconPath": "/images/jin2.png"
       },
       {
         "pagePath": "pages/silver1/silver1",
-        "text": "银牌",
+        "text": "银牌教练",
         "iconPath": "/images/pai1.png",
         "selectedIconPath": "/images/yin2.png"
       },
       {
         "pagePath": "pages/copper1/copper1",
-        "text": "普通",
+        "text": "普通教练",
         "iconPath": "/images/pai1.png",
         "selectedIconPath": "/images/tong2.png"
       },

@@ -356,5 +356,11 @@ Page({
   wocao() {
     var that = this;
 
+  },
+  // 首页大图片的跳转
+  showyitu(){
+    wx.navigateTo({
+      url: '/pages/navshowyeyizhang/navshowyeyizhang',
+    })
   }
 })
